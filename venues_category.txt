@@ -1,0 +1,304 @@
+Venue Category,Frequency
+Mexican Restaurant,326
+Fast Food Restaurant,251
+Coffee Shop,239
+Pizza Place,234
+American Restaurant,209
+Grocery Store,174
+Convenience Store,173
+Sandwich Place,152
+Hotel,143
+Breakfast Spot,92
+Discount Store,88
+Ice Cream Shop,84
+Bar,83
+Italian Restaurant,79
+Steakhouse,76
+Pharmacy,73
+Gas Station,71
+Park,71
+Brewery,67
+Golf Course,66
+Burger Joint,62
+Café,61
+Trail,55
+Gym,47
+Chinese Restaurant,47
+Gym / Fitness Center,44
+Sushi Restaurant,43
+BBQ Joint,42
+Bank,41
+Restaurant,41
+Fried Chicken Joint,41
+Hardware Store,38
+Diner,37
+Asian Restaurant,37
+Movie Theater,34
+Bakery,32
+Furniture / Home Store,32
+Seafood Restaurant,31
+Big Box Store,31
+New American Restaurant,29
+Taco Place,27
+Pet Store,26
+Scenic Lookout,24
+Clothing Store,24
+Cosmetics Shop,24
+Spa,24
+Wine Bar,23
+Department Store,22
+Motel,22
+Frozen Yogurt Shop,21
+Wings Joint,21
+Campground,21
+Japanese Restaurant,21
+Donut Shop,19
+Video Store,19
+Thai Restaurant,19
+Mediterranean Restaurant,19
+Resort,18
+Post Office,18
+Sporting Goods Shop,18
+History Museum,17
+Salon / Barbershop,17
+Greek Restaurant,17
+Sports Bar,16
+Shipping Store,16
+Bookstore,16
+Deli / Bodega,16
+Warehouse Store,16
+Salad Place,14
+Intersection,14
+Airport,14
+Mobile Phone Shop,13
+RV Park,13
+Antique Shop,13
+Liquor Store,12
+Burrito Place,12
+Vietnamese Restaurant,12
+Gift Shop,12
+Shopping Mall,12
+Baseball Field,11
+Juice Bar,11
+Baseball Stadium,11
+Rental Car Location,11
+Casino,11
+Supermarket,10
+Video Game Store,10
+Gastropub,10
+Plaza,10
+Theater,10
+Hot Dog Joint,10
+Smoke Shop,10
+Lounge,9
+Bowling Alley,9
+Pub,9
+Music Venue,9
+Electronics Store,9
+Home Service,9
+Farmers Market,9
+Dog Run,9
+Indian Restaurant,9
+Other Great Outdoors,9
+Lingerie Store,9
+Dive Bar,9
+Art Gallery,8
+Winery,8
+Vegetarian / Vegan Restaurant,8
+Health & Beauty Service,8
+Historic Site,8
+Buffet,8
+Middle Eastern Restaurant,8
+Multiplex,8
+Bagel Shop,8
+Wine Shop,8
+Food,8
+Beer Bar,8
+Arts & Crafts Store,7
+Snack Place,7
+Construction & Landscaping,7
+French Restaurant,7
+Korean Restaurant,7
+Massage Studio,7
+Thrift / Vintage Store,7
+Tex-Mex Restaurant,7
+Farm,7
+State / Provincial Park,7
+Tour Provider,7
+Hawaiian Restaurant,7
+Hotel Bar,6
+Dessert Shop,6
+Tourist Information Center,6
+Pet Service,6
+Bistro,6
+Pool,6
+Mountain,6
+Candy Store,6
+Athletics & Sports,6
+Nature Preserve,6
+Gun Range,6
+Museum,6
+Miscellaneous Shop,6
+Fabric Shop,5
+Tea Room,5
+Racetrack,5
+Cocktail Bar,5
+Business Service,5
+Lake,5
+Train Station,5
+National Park,5
+Nightclub,5
+Truck Stop,5
+Cajun / Creole Restaurant,5
+Irish Pub,5
+Market,5
+Concert Hall,5
+Jewelry Store,5
+Smoothie Shop,5
+Zoo,4
+Beach,4
+Southern / Soul Food Restaurant,4
+Soup Place,4
+Food Truck,4
+Forest,4
+Record Shop,4
+Outdoor Supply Store,4
+Art Museum,4
+Hockey Arena,4
+River,4
+Garden Center,4
+Paper / Office Supplies Store,4
+Comic Shop,4
+Toy / Game Store,4
+Supplement Shop,3
+ATM,3
+Recreation Center,3
+Performing Arts Venue,3
+Whisky Bar,3
+Football Stadium,3
+Climbing Gym,3
+Tennis Court,3
+Falafel Restaurant,3
+Fishing Store,3
+Bubble Tea Shop,3
+Dance Studio,3
+Rock Club,3
+Neighborhood,3
+Playground,3
+Garden,3
+Shoe Store,3
+Sculpture Garden,3
+Beer Store,3
+Motorcycle Shop,3
+Hotel Pool,3
+Border Crossing,3
+Building,3
+German Restaurant,3
+General Entertainment,3
+Rental Service,2
+Airport Terminal,2
+Residential Building (Apartment / Condo),2
+Other Repair Shop,2
+Automotive Shop,2
+Strip Club,2
+Comedy Club,2
+Kitchen Supply Store,2
+College Quad,2
+Food Court,2
+College Basketball Court,2
+Speakeasy,2
+Auto Garage,2
+Heliport,2
+High School,2
+Flea Market,2
+Food & Drink Shop,2
+Latin American Restaurant,2
+Organic Grocery,2
+General College & University,2
+Nail Salon,2
+Cupcake Shop,2
+Flower Shop,2
+Rafting,2
+Botanical Garden,2
+Gun Shop,2
+Outlet Store,2
+Gourmet Shop,2
+Chocolate Shop,2
+Planetarium,2
+Harbor / Marina,2
+College Bookstore,2
+Observatory,1
+Veterinarian,1
+Golf Driving Range,1
+Field,1
+Cuban Restaurant,1
+South American Restaurant,1
+Castle,1
+Night Market,1
+Hobby Shop,1
+Kids Store,1
+Disc Golf,1
+Tanning Salon,1
+Adult Boutique,1
+Hookah Bar,1
+College Theater,1
+General Travel,1
+Advertising Agency,1
+Eastern European Restaurant,1
+Sporting Event,1
+Tapas Restaurant,1
+Basketball Court,1
+Bridge,1
+Pie Shop,1
+Paintball Field,1
+City,1
+Bus Station,1
+Library,1
+Argentinian Restaurant,1
+Soccer Field,1
+Butcher,1
+Canal,1
+Food Service,1
+Science Museum,1
+Peruvian Restaurant,1
+Memorial Site,1
+Women's Store,1
+Cafeteria,1
+Indie Movie Theater,1
+Comfort Food Restaurant,1
+Spanish Restaurant,1
+Basketball Stadium,1
+College Stadium,1
+Music Store,1
+Motorsports Shop,1
+Martial Arts Dojo,1
+Bed & Breakfast,1
+Ski Chalet,1
+Office,1
+Insurance Office,1
+Boat or Ferry,1
+Tunnel,1
+Boutique,1
+Nightlife Spot,1
+Go Kart Track,1
+Arcade,1
+Board Shop,1
+Country Dance Club,1
+Rest Area,1
+Churrascaria,1
+Karaoke Bar,1
+Gymnastics Gym,1
+Caribbean Restaurant,1
+Doctor's Office,1
+Church,1
+Creperie,1
+Bike Shop,1
+Monument / Landmark,1
+Fountain,1
+Shopping Plaza,1
+Bike Rental / Bike Share,1
+Shop & Service,1
+Event Space,1
+IT Services,1
+Water Park,1
+Gluten-free Restaurant,1
