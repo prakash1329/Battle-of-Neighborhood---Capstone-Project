@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_4134f3bdc91047f7ac7ab6235814dfc5 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_4134f3bdc91047f7ac7ab6235814dfc5" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_4134f3bdc91047f7ac7ab6235814dfc5 = L.map(
+        'map_4134f3bdc91047f7ac7ab6235814dfc5', {
+        center: [33.5937302, -112.3033265],
+        zoom: 9.4,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_a1b19316dbd447dfb1dc3c391b92506c = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+    
+            var circle_marker_374fee9c084f48b787758d2a6ef9375f = L.circleMarker(
+                [33.4150485, -111.5495777],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_30082681c0f941f183ded74f5f4655a9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a501bb6d343f4a44aca8659ec329d679 = $(`<div id="html_a501bb6d343f4a44aca8659ec329d679" style="width: 100.0%; height: 100.0%;">Apache Junction, Pinal</div>`)[0];
+                popup_30082681c0f941f183ded74f5f4655a9.setContent(html_a501bb6d343f4a44aca8659ec329d679);
+            
+
+            circle_marker_374fee9c084f48b787758d2a6ef9375f.bindPopup(popup_30082681c0f941f183ded74f5f4655a9)
+            ;
+
+            
+        
+    
+            var circle_marker_15a2173a6dbf4754a4548471ca68af55 = L.circleMarker(
+                [33.4354989, -112.3495572],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_9d8d9a448ca5473fbb0a5e291f1d889e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_38de4f7d93b14140b90a386f6f7d602f = $(`<div id="html_38de4f7d93b14140b90a386f6f7d602f" style="width: 100.0%; height: 100.0%;">Avondale, Maricopa</div>`)[0];
+                popup_9d8d9a448ca5473fbb0a5e291f1d889e.setContent(html_38de4f7d93b14140b90a386f6f7d602f);
+            
+
+            circle_marker_15a2173a6dbf4754a4548471ca68af55.bindPopup(popup_9d8d9a448ca5473fbb0a5e291f1d889e)
+            ;
+
+            
+        
+    
+            var circle_marker_567913e8cdc7444787fb0e9d0c1ffa26 = L.circleMarker(
+                [33.3702748, -112.5838673],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_d7221af11d054a79a30e0d79d9b1f325 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b2605ef7a484458bb6e238d9c7aadf58 = $(`<div id="html_b2605ef7a484458bb6e238d9c7aadf58" style="width: 100.0%; height: 100.0%;">Buckeye, Maricopa</div>`)[0];
+                popup_d7221af11d054a79a30e0d79d9b1f325.setContent(html_b2605ef7a484458bb6e238d9c7aadf58);
+            
+
+            circle_marker_567913e8cdc7444787fb0e9d0c1ffa26.bindPopup(popup_d7221af11d054a79a30e0d79d9b1f325)
+            ;
+
+            
+        
+    
+            var circle_marker_a0f4bbc4403540e09c04d43117f634f5 = L.circleMarker(
+                [33.8222611, -111.918203],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_45618a27be80459e9051e59662219550 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_98fd3692d8fe4d9c842b95cea16bc362 = $(`<div id="html_98fd3692d8fe4d9c842b95cea16bc362" style="width: 100.0%; height: 100.0%;">Carefree, Maricopa</div>`)[0];
+                popup_45618a27be80459e9051e59662219550.setContent(html_98fd3692d8fe4d9c842b95cea16bc362);
+            
+
+            circle_marker_a0f4bbc4403540e09c04d43117f634f5.bindPopup(popup_45618a27be80459e9051e59662219550)
+            ;
+
+            
+        
+    
+            var circle_marker_486325b7e22f4ebd882c429e085bf565 = L.circleMarker(
+                [33.8333333, -111.9508333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_31580197b3a04229acf60820d1936260 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_da3b5e7d351b442f87ce0c344b83b8a4 = $(`<div id="html_da3b5e7d351b442f87ce0c344b83b8a4" style="width: 100.0%; height: 100.0%;">Cave Creek, Maricopa</div>`)[0];
+                popup_31580197b3a04229acf60820d1936260.setContent(html_da3b5e7d351b442f87ce0c344b83b8a4);
+            
+
+            circle_marker_486325b7e22f4ebd882c429e085bf565.bindPopup(popup_31580197b3a04229acf60820d1936260)
+            ;
+
+            
+        
+    
+            var circle_marker_945f19490d1e4e0b9b4157f914a76305 = L.circleMarker(
+                [33.3062223, -111.8413317],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_945857a3c4284a2dbe7a9aa50f233903 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2d17a8d5bc95442c96a0723fef6fe611 = $(`<div id="html_2d17a8d5bc95442c96a0723fef6fe611" style="width: 100.0%; height: 100.0%;">Chandler, Maricopa</div>`)[0];
+                popup_945857a3c4284a2dbe7a9aa50f233903.setContent(html_2d17a8d5bc95442c96a0723fef6fe611);
+            
+
+            circle_marker_945f19490d1e4e0b9b4157f914a76305.bindPopup(popup_945857a3c4284a2dbe7a9aa50f233903)
+            ;
+
+            
+        
+    
+            var circle_marker_4db453fe461c4045a83148c6f9256fd2 = L.circleMarker(
+                [33.6130338, -112.3244866],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_ec0eea0fcca84ccaa646d693ae2052ee = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3fb08522204f4363a466772f9bd706a7 = $(`<div id="html_3fb08522204f4363a466772f9bd706a7" style="width: 100.0%; height: 100.0%;">El Mirage, Maricopa</div>`)[0];
+                popup_ec0eea0fcca84ccaa646d693ae2052ee.setContent(html_3fb08522204f4363a466772f9bd706a7);
+            
+
+            circle_marker_4db453fe461c4045a83148c6f9256fd2.bindPopup(popup_ec0eea0fcca84ccaa646d693ae2052ee)
+            ;
+
+            
+        
+    
+            var circle_marker_46444604cbe8426794610358cc9faf15 = L.circleMarker(
+                [33.6117105, -111.7173613],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_a0a37b47f3a04093af60263df07ba96a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1b1eeb9abaef4fff8501adc2895a7ede = $(`<div id="html_1b1eeb9abaef4fff8501adc2895a7ede" style="width: 100.0%; height: 100.0%;">Fountain Hills, Maricopa</div>`)[0];
+                popup_a0a37b47f3a04093af60263df07ba96a.setContent(html_1b1eeb9abaef4fff8501adc2895a7ede);
+            
+
+            circle_marker_46444604cbe8426794610358cc9faf15.bindPopup(popup_a0a37b47f3a04093af60263df07ba96a)
+            ;
+
+            
+        
+    
+            var circle_marker_af900b6417ad4891bea07d33dbfa8d53 = L.circleMarker(
+                [33.3527632, -111.7890373],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_1f923b4580e04923ae5f05754e974d97 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c52e418af7b54d109cd0ac8d28543e6c = $(`<div id="html_c52e418af7b54d109cd0ac8d28543e6c" style="width: 100.0%; height: 100.0%;">Gilbert, Maricopa</div>`)[0];
+                popup_1f923b4580e04923ae5f05754e974d97.setContent(html_c52e418af7b54d109cd0ac8d28543e6c);
+            
+
+            circle_marker_af900b6417ad4891bea07d33dbfa8d53.bindPopup(popup_1f923b4580e04923ae5f05754e974d97)
+            ;
+
+            
+        
+    
+            var circle_marker_a714f045d66744af9744fba43123ec48 = L.circleMarker(
+                [33.5386858, -112.1859941],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_fab6361c89194edaaff7786909e7b0ba = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b5cd3f9e8c8f4e4f8368a87d89b95e98 = $(`<div id="html_b5cd3f9e8c8f4e4f8368a87d89b95e98" style="width: 100.0%; height: 100.0%;">Glendale, Maricopa</div>`)[0];
+                popup_fab6361c89194edaaff7786909e7b0ba.setContent(html_b5cd3f9e8c8f4e4f8368a87d89b95e98);
+            
+
+            circle_marker_a714f045d66744af9744fba43123ec48.bindPopup(popup_fab6361c89194edaaff7786909e7b0ba)
+            ;
+
+            
+        
+    
+            var circle_marker_276d869d6f0847d0bff5df0581a59277 = L.circleMarker(
+                [33.4353672, -112.3576005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_e6fdc43f2b1e428a87e88769c5505f07 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3906f2212a4844d2a7b37f96cda65680 = $(`<div id="html_3906f2212a4844d2a7b37f96cda65680" style="width: 100.0%; height: 100.0%;">Goodyear, Maricopa</div>`)[0];
+                popup_e6fdc43f2b1e428a87e88769c5505f07.setContent(html_3906f2212a4844d2a7b37f96cda65680);
+            
+
+            circle_marker_276d869d6f0847d0bff5df0581a59277.bindPopup(popup_e6fdc43f2b1e428a87e88769c5505f07)
+            ;
+
+            
+        
+    
+            var circle_marker_bea583a08f4b41b5b86978b7fca8163c = L.circleMarker(
+                [33.3631249, -111.9625328],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_d45829f99ff54c3dac5dad389e7d30b6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7bbc52f96aea4da393caacb70fe706c4 = $(`<div id="html_7bbc52f96aea4da393caacb70fe706c4" style="width: 100.0%; height: 100.0%;">Guadalupe, Maricopa</div>`)[0];
+                popup_d45829f99ff54c3dac5dad389e7d30b6.setContent(html_7bbc52f96aea4da393caacb70fe706c4);
+            
+
+            circle_marker_bea583a08f4b41b5b86978b7fca8163c.bindPopup(popup_d45829f99ff54c3dac5dad389e7d30b6)
+            ;
+
+            
+        
+    
+            var circle_marker_f6bd3ef105f349e3bf60be636d1b94e1 = L.circleMarker(
+                [33.4933796, -112.3581244],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_9c041b9b48044a4992b1d3c7cc4ec3e6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_81e8b45e3e44480f8d2c5809b4ed0aec = $(`<div id="html_81e8b45e3e44480f8d2c5809b4ed0aec" style="width: 100.0%; height: 100.0%;">Litchfield Park, Maricopa</div>`)[0];
+                popup_9c041b9b48044a4992b1d3c7cc4ec3e6.setContent(html_81e8b45e3e44480f8d2c5809b4ed0aec);
+            
+
+            circle_marker_f6bd3ef105f349e3bf60be636d1b94e1.bindPopup(popup_9c041b9b48044a4992b1d3c7cc4ec3e6)
+            ;
+
+            
+        
+    
+            var circle_marker_820e1ec7ae814deb88cd56b451fd7bba = L.circleMarker(
+                [33.058129, -112.0477554],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_693f2a0c827c42e7bc05ce758f1265e3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_900f7f0f6089464dace966709309a7b6 = $(`<div id="html_900f7f0f6089464dace966709309a7b6" style="width: 100.0%; height: 100.0%;">Maricopa, Pinal</div>`)[0];
+                popup_693f2a0c827c42e7bc05ce758f1265e3.setContent(html_900f7f0f6089464dace966709309a7b6);
+            
+
+            circle_marker_820e1ec7ae814deb88cd56b451fd7bba.bindPopup(popup_693f2a0c827c42e7bc05ce758f1265e3)
+            ;
+
+            
+        
+    
+            var circle_marker_f7729e197a4042c4b7daf19255ab78f5 = L.circleMarker(
+                [33.4151117, -111.8314773],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_6f76f0f50d224d99a25b6b921d44768c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5f458e85d8134c399f404004f82ab830 = $(`<div id="html_5f458e85d8134c399f404004f82ab830" style="width: 100.0%; height: 100.0%;">Mesa, Maricopa</div>`)[0];
+                popup_6f76f0f50d224d99a25b6b921d44768c.setContent(html_5f458e85d8134c399f404004f82ab830);
+            
+
+            circle_marker_f7729e197a4042c4b7daf19255ab78f5.bindPopup(popup_6f76f0f50d224d99a25b6b921d44768c)
+            ;
+
+            
+        
+    
+            var circle_marker_f30c5a3bf08546e1b3bb04ca1ca7651c = L.circleMarker(
+                [33.5428006, -111.9556001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_911d915a3adc40c287c0c02b6a6dfefb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d2fb3ddcdfa449718144f23f78964051 = $(`<div id="html_d2fb3ddcdfa449718144f23f78964051" style="width: 100.0%; height: 100.0%;">Paradise Valley, Maricopa</div>`)[0];
+                popup_911d915a3adc40c287c0c02b6a6dfefb.setContent(html_d2fb3ddcdfa449718144f23f78964051);
+            
+
+            circle_marker_f30c5a3bf08546e1b3bb04ca1ca7651c.bindPopup(popup_911d915a3adc40c287c0c02b6a6dfefb)
+            ;
+
+            
+        
+    
+            var circle_marker_344a2096ab9047e0b53d12c1177d544e = L.circleMarker(
+                [33.5806115, -112.2372942],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_1fad716e7f5c4b089550a993baeca412 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5f4bdf62bc0545cbbff588a097be6133 = $(`<div id="html_5f4bdf62bc0545cbbff588a097be6133" style="width: 100.0%; height: 100.0%;">Peoria, Maricopa</div>`)[0];
+                popup_1fad716e7f5c4b089550a993baeca412.setContent(html_5f4bdf62bc0545cbbff588a097be6133);
+            
+
+            circle_marker_344a2096ab9047e0b53d12c1177d544e.bindPopup(popup_1fad716e7f5c4b089550a993baeca412)
+            ;
+
+            
+        
+    
+            var circle_marker_f52498253ed24e80b77e85f9c6acc03b = L.circleMarker(
+                [33.4484367, -112.0741417],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_d4bad4d14e2e471f9e984dd29c136433 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_380c3f5859454ad7ada34398b6816df4 = $(`<div id="html_380c3f5859454ad7ada34398b6816df4" style="width: 100.0%; height: 100.0%;">Phoenix, Maricopa</div>`)[0];
+                popup_d4bad4d14e2e471f9e984dd29c136433.setContent(html_380c3f5859454ad7ada34398b6816df4);
+            
+
+            circle_marker_f52498253ed24e80b77e85f9c6acc03b.bindPopup(popup_d4bad4d14e2e471f9e984dd29c136433)
+            ;
+
+            
+        
+    
+            var circle_marker_5609bc1cfe104d1fab97182b371c46ba = L.circleMarker(
+                [33.2483858, -111.6341585],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_397614ef989848a1ab033d88055107a5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5a470343c95e4cf9909527fd6d0e1af9 = $(`<div id="html_5a470343c95e4cf9909527fd6d0e1af9" style="width: 100.0%; height: 100.0%;">Queen Creek, Maricopa</div>`)[0];
+                popup_397614ef989848a1ab033d88055107a5.setContent(html_5a470343c95e4cf9909527fd6d0e1af9);
+            
+
+            circle_marker_5609bc1cfe104d1fab97182b371c46ba.bindPopup(popup_397614ef989848a1ab033d88055107a5)
+            ;
+
+            
+        
+    
+            var circle_marker_3c34aedcfe424128b7079de14f577bb8 = L.circleMarker(
+                [33.4942189, -111.9260184],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_20a209ac78a04d49956b7e9b796c12d2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_411a97e7fe8a40a78efa13d79a3368f6 = $(`<div id="html_411a97e7fe8a40a78efa13d79a3368f6" style="width: 100.0%; height: 100.0%;">Scottsdale, Maricopa</div>`)[0];
+                popup_20a209ac78a04d49956b7e9b796c12d2.setContent(html_411a97e7fe8a40a78efa13d79a3368f6);
+            
+
+            circle_marker_3c34aedcfe424128b7079de14f577bb8.bindPopup(popup_20a209ac78a04d49956b7e9b796c12d2)
+            ;
+
+            
+        
+    
+            var circle_marker_982a8d6e096c4fa9a769614584cf556d = L.circleMarker(
+                [33.6292271, -112.3680189],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_027e063bbf5b484692091d3145b11233 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7a026639c4824a98a6a705fc31f8b8d6 = $(`<div id="html_7a026639c4824a98a6a705fc31f8b8d6" style="width: 100.0%; height: 100.0%;">Surprise, Maricopa</div>`)[0];
+                popup_027e063bbf5b484692091d3145b11233.setContent(html_7a026639c4824a98a6a705fc31f8b8d6);
+            
+
+            circle_marker_982a8d6e096c4fa9a769614584cf556d.bindPopup(popup_027e063bbf5b484692091d3145b11233)
+            ;
+
+            
+        
+    
+            var circle_marker_01fcaa36d1944adc845dd11f690b8a48 = L.circleMarker(
+                [33.4255056, -111.9400125],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_56253ae3327740c2959d7fe0d5621c46 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_aac10fe995e24fe5b0ed30729ee67ed9 = $(`<div id="html_aac10fe995e24fe5b0ed30729ee67ed9" style="width: 100.0%; height: 100.0%;">Tempe, Maricopa</div>`)[0];
+                popup_56253ae3327740c2959d7fe0d5621c46.setContent(html_aac10fe995e24fe5b0ed30729ee67ed9);
+            
+
+            circle_marker_01fcaa36d1944adc845dd11f690b8a48.bindPopup(popup_56253ae3327740c2959d7fe0d5621c46)
+            ;
+
+            
+        
+    
+            var circle_marker_906deb9727674c44b9f7b95434c0fd33 = L.circleMarker(
+                [33.4500497, -112.2593093],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_8ecea36afa06482baeaa07b9adccb97c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a717e8648a0f4a67b57549286d36f2b6 = $(`<div id="html_a717e8648a0f4a67b57549286d36f2b6" style="width: 100.0%; height: 100.0%;">Tolleson, Maricopa</div>`)[0];
+                popup_8ecea36afa06482baeaa07b9adccb97c.setContent(html_a717e8648a0f4a67b57549286d36f2b6);
+            
+
+            circle_marker_906deb9727674c44b9f7b95434c0fd33.bindPopup(popup_8ecea36afa06482baeaa07b9adccb97c)
+            ;
+
+            
+        
+    
+            var circle_marker_f3dcb454e4c04cdaa3333d792b0839c9 = L.circleMarker(
+                [33.5937302, -112.3033265],
+                {
+  "bubblingMouseEvents": true,
+  "color": "orange",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4134f3bdc91047f7ac7ab6235814dfc5);
+            
+    
+            var popup_e4e320b99f3a4b0b9c78d135112c17f7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d8de9f0498d042628e60455bc7138a94 = $(`<div id="html_d8de9f0498d042628e60455bc7138a94" style="width: 100.0%; height: 100.0%;">Youngtown, Maricopa</div>`)[0];
+                popup_e4e320b99f3a4b0b9c78d135112c17f7.setContent(html_d8de9f0498d042628e60455bc7138a94);
+            
+
+            circle_marker_f3dcb454e4c04cdaa3333d792b0839c9.bindPopup(popup_e4e320b99f3a4b0b9c78d135112c17f7)
+            ;
+
+            
+        
+    
+
+        var tile_layer_89f7d080693642fab6e80723b58c8c30 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+} );
+
+        var mini_map_35c32fe6036c4727940c2cb1100db55b = new L.Control.MiniMap( tile_layer_89f7d080693642fab6e80723b58c8c30,
+         {
+  "autoToggleDisplay": false,
+  "centerFixed": false,
+  "collapsedHeight": 25,
+  "collapsedWidth": 25,
+  "height": 150,
+  "minimized": false,
+  "position": "bottomright",
+  "toggleDisplay": false,
+  "width": 150,
+  "zoomAnimation": false,
+  "zoomLevelFixed": null,
+  "zoomLevelOffset": -5
+});
+        map_4134f3bdc91047f7ac7ab6235814dfc5.addControl(mini_map_35c32fe6036c4727940c2cb1100db55b);
+
+        
+</script>
