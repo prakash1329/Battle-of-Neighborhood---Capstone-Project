@@ -1,0 +1,58 @@
+Venue Category,Frequency
+Mexican Restaurant,9
+Hotel,5
+Coffee Shop,5
+Café,4
+Pizza Place,4
+Grocery Store,3
+Park,3
+Taco Place,3
+Breakfast Spot,2
+Pub,2
+Theater,2
+American Restaurant,2
+Art Gallery,2
+Burger Joint,2
+Italian Restaurant,2
+Ice Cream Shop,2
+Vegetarian / Vegan Restaurant,2
+Bakery,2
+Brewery,2
+Bar,2
+Southern / Soul Food Restaurant,2
+Music Venue,2
+Restaurant,2
+Rental Car Location,1
+Pet Service,1
+Rock Club,1
+Beer Store,1
+Historic Site,1
+Baseball Stadium,1
+Beer Bar,1
+Steakhouse,1
+Sandwich Place,1
+Food Truck,1
+History Museum,1
+Night Market,1
+Asian Restaurant,1
+Fried Chicken Joint,1
+Garden Center,1
+Garden,1
+Office,1
+Plaza,1
+Basketball Stadium,1
+Chinese Restaurant,1
+Indie Movie Theater,1
+Middle Eastern Restaurant,1
+Museum,1
+Golf Course,1
+Cocktail Bar,1
+Vietnamese Restaurant,1
+Gastropub,1
+Dog Run,1
+New American Restaurant,1
+Peruvian Restaurant,1
+Other Great Outdoors,1
+Lounge,1
+Art Museum,1
+Market,1
