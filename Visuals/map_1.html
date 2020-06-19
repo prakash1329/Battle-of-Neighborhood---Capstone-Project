@@ -1,0 +1,4833 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_390ed9ffe4f444ca8b8e5c604e4824a0 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_390ed9ffe4f444ca8b8e5c604e4824a0" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_390ed9ffe4f444ca8b8e5c604e4824a0 = L.map(
+        'map_390ed9ffe4f444ca8b8e5c604e4824a0', {
+        center: [33.4484367, -112.0741417],
+        zoom: 7,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_efc6ed9b0bc34193b44a86969c87a48b = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+    
+        var marker_986ddf6f75e04b649910ebb944b52061 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_986ddf6f75e04b649910ebb944b52061.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_6724f1978c55482db4d155c256001962 = L.circleMarker(
+                [33.4150485, -111.5495777],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_7db18143407e4392afbf38f237b571af = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c6ba7e48bda14887a9fdad8b6488f971 = $(`<div id="html_c6ba7e48bda14887a9fdad8b6488f971" style="width: 100.0%; height: 100.0%;">Apache Junction, Pinal</div>`)[0];
+                popup_7db18143407e4392afbf38f237b571af.setContent(html_c6ba7e48bda14887a9fdad8b6488f971);
+            
+
+            circle_marker_6724f1978c55482db4d155c256001962.bindPopup(popup_7db18143407e4392afbf38f237b571af)
+            ;
+
+            
+        
+    
+        var marker_65d349f2a9414897b1fc0260d518e7dd = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_65d349f2a9414897b1fc0260d518e7dd.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_7850eb8cc3be40228638ec888b9aecf3 = L.circleMarker(
+                [33.4354989, -112.3495572],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_80e6ec7d48244b4d8252edcf3ed39d8a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ecb71fbc6f31496d8a93b36be9f499b6 = $(`<div id="html_ecb71fbc6f31496d8a93b36be9f499b6" style="width: 100.0%; height: 100.0%;">Avondale, Maricopa</div>`)[0];
+                popup_80e6ec7d48244b4d8252edcf3ed39d8a.setContent(html_ecb71fbc6f31496d8a93b36be9f499b6);
+            
+
+            circle_marker_7850eb8cc3be40228638ec888b9aecf3.bindPopup(popup_80e6ec7d48244b4d8252edcf3ed39d8a)
+            ;
+
+            
+        
+    
+        var marker_5b04aafc0de54f249d30a074037f14e2 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_5b04aafc0de54f249d30a074037f14e2.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_2d10530082614ba9ab4d6795f536d366 = L.circleMarker(
+                [31.9678611, -110.2945174],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#386df9",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#386df9",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_98bed63076f7436abf90b7d1f14dd6a4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_706e7fb5670c44d5b18603c358683498 = $(`<div id="html_706e7fb5670c44d5b18603c358683498" style="width: 100.0%; height: 100.0%;">Benson, Cochise</div>`)[0];
+                popup_98bed63076f7436abf90b7d1f14dd6a4.setContent(html_706e7fb5670c44d5b18603c358683498);
+            
+
+            circle_marker_2d10530082614ba9ab4d6795f536d366.bindPopup(popup_98bed63076f7436abf90b7d1f14dd6a4)
+            ;
+
+            
+        
+    
+        var marker_d84571dcae9043f498739b138fa39436 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_d84571dcae9043f498739b138fa39436.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_5fa961b5195f49419bb26954c4ea0d77 = L.circleMarker(
+                [31.4481547, -109.9284084],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#386df9",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#386df9",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_5548d289b9664fb2ae2d42247008751d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1c4222b7faf14f55ac9c11432f923ec1 = $(`<div id="html_1c4222b7faf14f55ac9c11432f923ec1" style="width: 100.0%; height: 100.0%;">Bisbee, Cochise</div>`)[0];
+                popup_5548d289b9664fb2ae2d42247008751d.setContent(html_1c4222b7faf14f55ac9c11432f923ec1);
+            
+
+            circle_marker_5fa961b5195f49419bb26954c4ea0d77.bindPopup(popup_5548d289b9664fb2ae2d42247008751d)
+            ;
+
+            
+        
+    
+        var marker_8f20a3beed3146b2ae841d1a8ddbdaec = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_8f20a3beed3146b2ae841d1a8ddbdaec.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_c4bdfe03a96f41c090ea1cd8b95cd2c9 = L.circleMarker(
+                [33.3702748, -112.5838673],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_6f4e8366c4de43c6885a904559759ac3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_256c33825f8945d0b75d8af5617707ae = $(`<div id="html_256c33825f8945d0b75d8af5617707ae" style="width: 100.0%; height: 100.0%;">Buckeye, Maricopa</div>`)[0];
+                popup_6f4e8366c4de43c6885a904559759ac3.setContent(html_256c33825f8945d0b75d8af5617707ae);
+            
+
+            circle_marker_c4bdfe03a96f41c090ea1cd8b95cd2c9.bindPopup(popup_6f4e8366c4de43c6885a904559759ac3)
+            ;
+
+            
+        
+    
+        var marker_5cce4cdfe7654de1b3b8471211d9e766 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_5cce4cdfe7654de1b3b8471211d9e766.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_d44fd931ce4d449d9b4f44bb5d34f99f = L.circleMarker(
+                [35.1477774, -114.5682983],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#149df1",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#149df1",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_6788ffe4e40542e69db0cbda609ca9bd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_00415d8d918949d9b761a8d55f7226cb = $(`<div id="html_00415d8d918949d9b761a8d55f7226cb" style="width: 100.0%; height: 100.0%;">Bullhead City, Mohave</div>`)[0];
+                popup_6788ffe4e40542e69db0cbda609ca9bd.setContent(html_00415d8d918949d9b761a8d55f7226cb);
+            
+
+            circle_marker_d44fd931ce4d449d9b4f44bb5d34f99f.bindPopup(popup_6788ffe4e40542e69db0cbda609ca9bd)
+            ;
+
+            
+        
+    
+        var marker_00d99e4775dd4e0d94af7fd84b07ab77 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_00d99e4775dd4e0d94af7fd84b07ab77.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_44f4075da23044ec8832cad9ec2ef59c = L.circleMarker(
+                [34.5636358, -111.8543178],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#12c8e6",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#12c8e6",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_12d911d7dee74dbb80e5646ad0642ad0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_01839ec107da46f8a92c12b5af704811 = $(`<div id="html_01839ec107da46f8a92c12b5af704811" style="width: 100.0%; height: 100.0%;">Camp Verde, Yavapai</div>`)[0];
+                popup_12d911d7dee74dbb80e5646ad0642ad0.setContent(html_01839ec107da46f8a92c12b5af704811);
+            
+
+            circle_marker_44f4075da23044ec8832cad9ec2ef59c.bindPopup(popup_12d911d7dee74dbb80e5646ad0642ad0)
+            ;
+
+            
+        
+    
+        var marker_c8916fb95f5847659511628be0ee6f8b = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_c8916fb95f5847659511628be0ee6f8b.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_bdc45b84273346f7a4eaf23291e240d1 = L.circleMarker(
+                [33.8222611, -111.918203],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_e1ae20ed64924838a0fd7f5f73293fab = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6519cc3f85a74141a143dc1c97eee5ec = $(`<div id="html_6519cc3f85a74141a143dc1c97eee5ec" style="width: 100.0%; height: 100.0%;">Carefree, Maricopa</div>`)[0];
+                popup_e1ae20ed64924838a0fd7f5f73293fab.setContent(html_6519cc3f85a74141a143dc1c97eee5ec);
+            
+
+            circle_marker_bdc45b84273346f7a4eaf23291e240d1.bindPopup(popup_e1ae20ed64924838a0fd7f5f73293fab)
+            ;
+
+            
+        
+    
+        var marker_f5749994788b4a1baf5637919ae557ed = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_f5749994788b4a1baf5637919ae557ed.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_ee913ddb8c5c432f94a8fdcf6b51cf17 = L.circleMarker(
+                [32.8795022, -111.7573521],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_cdb94a868d51465b8fd42c074648ac47 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4dd5f05e14214ffaae1d12c3b43186c6 = $(`<div id="html_4dd5f05e14214ffaae1d12c3b43186c6" style="width: 100.0%; height: 100.0%;">Casa Grande, Pinal</div>`)[0];
+                popup_cdb94a868d51465b8fd42c074648ac47.setContent(html_4dd5f05e14214ffaae1d12c3b43186c6);
+            
+
+            circle_marker_ee913ddb8c5c432f94a8fdcf6b51cf17.bindPopup(popup_cdb94a868d51465b8fd42c074648ac47)
+            ;
+
+            
+        
+    
+        var marker_782eb122907f49e2acfab4089d180904 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_782eb122907f49e2acfab4089d180904.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_ea8b9620c63943faa25bdf3a6cafcc1d = L.circleMarker(
+                [33.8333333, -111.9508333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_bd516c88955b45a1abcfdbe7d0872a78 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_39a1e1778384418f94caa6f6df516006 = $(`<div id="html_39a1e1778384418f94caa6f6df516006" style="width: 100.0%; height: 100.0%;">Cave Creek, Maricopa</div>`)[0];
+                popup_bd516c88955b45a1abcfdbe7d0872a78.setContent(html_39a1e1778384418f94caa6f6df516006);
+            
+
+            circle_marker_ea8b9620c63943faa25bdf3a6cafcc1d.bindPopup(popup_bd516c88955b45a1abcfdbe7d0872a78)
+            ;
+
+            
+        
+    
+        var marker_d0f825e544d149c5ba50c19c737d9760 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_d0f825e544d149c5ba50c19c737d9760.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_6ead31ba3c0b4dbe83a1648e45b9e505 = L.circleMarker(
+                [33.3062223, -111.8413317],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_730049d3474842e3b879181d68de7df6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_580526c2dbe440b68cae9fb54a62faf9 = $(`<div id="html_580526c2dbe440b68cae9fb54a62faf9" style="width: 100.0%; height: 100.0%;">Chandler, Maricopa</div>`)[0];
+                popup_730049d3474842e3b879181d68de7df6.setContent(html_580526c2dbe440b68cae9fb54a62faf9);
+            
+
+            circle_marker_6ead31ba3c0b4dbe83a1648e45b9e505.bindPopup(popup_730049d3474842e3b879181d68de7df6)
+            ;
+
+            
+        
+    
+        var marker_4f25a41b312e4948a12fdb130dec47d7 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_4f25a41b312e4948a12fdb130dec47d7.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_f0564b942aaa4b10be3ceed9cf9a069f = L.circleMarker(
+                [34.7575227, -112.4537809],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#12c8e6",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#12c8e6",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_1f6a81b6989047bb86e32876cc3325b1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6ac56b38910d41a896457568143d853c = $(`<div id="html_6ac56b38910d41a896457568143d853c" style="width: 100.0%; height: 100.0%;">Chino Valley, Yavapai</div>`)[0];
+                popup_1f6a81b6989047bb86e32876cc3325b1.setContent(html_6ac56b38910d41a896457568143d853c);
+            
+
+            circle_marker_f0564b942aaa4b10be3ceed9cf9a069f.bindPopup(popup_1f6a81b6989047bb86e32876cc3325b1)
+            ;
+
+            
+        
+    
+        var marker_17a40008d2d740168d0546697a949fec = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_17a40008d2d740168d0546697a949fec.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_fcd1647c35c54a8fb74c34e57c43e342 = L.circleMarker(
+                [34.7711319, -112.0579367],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#12c8e6",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#12c8e6",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_888e9f906def48c991c5c8acd167b70f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ec3438e82cfa401ca0eca043c22fb1ad = $(`<div id="html_ec3438e82cfa401ca0eca043c22fb1ad" style="width: 100.0%; height: 100.0%;">Clarkdale, Yavapai</div>`)[0];
+                popup_888e9f906def48c991c5c8acd167b70f.setContent(html_ec3438e82cfa401ca0eca043c22fb1ad);
+            
+
+            circle_marker_fcd1647c35c54a8fb74c34e57c43e342.bindPopup(popup_888e9f906def48c991c5c8acd167b70f)
+            ;
+
+            
+        
+    
+        var marker_5eb260679c3e457a944078bd35744aed = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_5eb260679c3e457a944078bd35744aed.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_35f31a65336d446db642a49b141415ad = L.circleMarker(
+                [33.0508966, -109.2961826],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#37e6d8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#37e6d8",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_132b8d53712d4579ad25f4edd5de2b74 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5f428973a7a04afe9a3709c9b23ebb0a = $(`<div id="html_5f428973a7a04afe9a3709c9b23ebb0a" style="width: 100.0%; height: 100.0%;">Clifton, Greenlee</div>`)[0];
+                popup_132b8d53712d4579ad25f4edd5de2b74.setContent(html_5f428973a7a04afe9a3709c9b23ebb0a);
+            
+
+            circle_marker_35f31a65336d446db642a49b141415ad.bindPopup(popup_132b8d53712d4579ad25f4edd5de2b74)
+            ;
+
+            
+        
+    
+        var marker_8bfc70b5e53240108de1a3ce5cab628b = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_8bfc70b5e53240108de1a3ce5cab628b.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_0d16b515952f4ed48a2726d9daaaf9a5 = L.circleMarker(
+                [36.9902621, -112.9757702],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#149df1",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#149df1",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_dee3e1b39ab24c799dc902d8e828ed80 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6b11d3e2f3294c41a4573d569c5e8d6c = $(`<div id="html_6b11d3e2f3294c41a4573d569c5e8d6c" style="width: 100.0%; height: 100.0%;">Colorado City, Mohave</div>`)[0];
+                popup_dee3e1b39ab24c799dc902d8e828ed80.setContent(html_6b11d3e2f3294c41a4573d569c5e8d6c);
+            
+
+            circle_marker_0d16b515952f4ed48a2726d9daaaf9a5.bindPopup(popup_dee3e1b39ab24c799dc902d8e828ed80)
+            ;
+
+            
+        
+    
+        var marker_dd8f73d9dc40428e975435a91f073801 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_dd8f73d9dc40428e975435a91f073801.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_63a2def2eaf74bf194d5c235c48c43ab = L.circleMarker(
+                [32.977839, -111.517624],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_e69b90cc78e447b2b0b6b254c86e43ed = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d8451b031bcd4d0f853274d229138207 = $(`<div id="html_d8451b031bcd4d0f853274d229138207" style="width: 100.0%; height: 100.0%;">Coolidge, Pinal</div>`)[0];
+                popup_e69b90cc78e447b2b0b6b254c86e43ed.setContent(html_d8451b031bcd4d0f853274d229138207);
+            
+
+            circle_marker_63a2def2eaf74bf194d5c235c48c43ab.bindPopup(popup_e69b90cc78e447b2b0b6b254c86e43ed)
+            ;
+
+            
+        
+    
+        var marker_d32091b7d5534d6aae83555be4c1a319 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_d32091b7d5534d6aae83555be4c1a319.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_d80ebab5d61243ad94964e7028cc6c74 = L.circleMarker(
+                [34.739489, -112.0097939],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#12c8e6",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#12c8e6",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_55f06a6cfd3e4a1c9490146ecd6a8410 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_43ae64a05bce41fc8289e92de81c8d2a = $(`<div id="html_43ae64a05bce41fc8289e92de81c8d2a" style="width: 100.0%; height: 100.0%;">Cottonwood, Yavapai</div>`)[0];
+                popup_55f06a6cfd3e4a1c9490146ecd6a8410.setContent(html_43ae64a05bce41fc8289e92de81c8d2a);
+            
+
+            circle_marker_d80ebab5d61243ad94964e7028cc6c74.bindPopup(popup_55f06a6cfd3e4a1c9490146ecd6a8410)
+            ;
+
+            
+        
+    
+        var marker_51d7563cc5984ce6bd02266dec490eee = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_51d7563cc5984ce6bd02266dec490eee.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_c1a3522653ea4aa2abb156e84ef7780f = L.circleMarker(
+                [34.513844500000005, -112.25601135833293],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#12c8e6",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#12c8e6",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_9bc906f63c2e49d794a7d54612860adf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ec54e54ac4f34ab2af6c8c921c1789d4 = $(`<div id="html_ec54e54ac4f34ab2af6c8c921c1789d4" style="width: 100.0%; height: 100.0%;">Dewey-Humboldt, Yavapai</div>`)[0];
+                popup_9bc906f63c2e49d794a7d54612860adf.setContent(html_ec54e54ac4f34ab2af6c8c921c1789d4);
+            
+
+            circle_marker_c1a3522653ea4aa2abb156e84ef7780f.bindPopup(popup_9bc906f63c2e49d794a7d54612860adf)
+            ;
+
+            
+        
+    
+        var marker_a42b2dbacd944e89a1f892d123b840c3 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_a42b2dbacd944e89a1f892d123b840c3.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_1916d1650eb74d93bdf2f36af0485cb3 = L.circleMarker(
+                [31.462229999999998, -109.59394273100952],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#386df9",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#386df9",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_09e0fc34e8ab406999dbad1b75e4a910 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ba6dcea0f56c42e0a8aec35b42482eab = $(`<div id="html_ba6dcea0f56c42e0a8aec35b42482eab" style="width: 100.0%; height: 100.0%;">Douglas, Cochise</div>`)[0];
+                popup_09e0fc34e8ab406999dbad1b75e4a910.setContent(html_ba6dcea0f56c42e0a8aec35b42482eab);
+            
+
+            circle_marker_1916d1650eb74d93bdf2f36af0485cb3.bindPopup(popup_09e0fc34e8ab406999dbad1b75e4a910)
+            ;
+
+            
+        
+    
+        var marker_779fa337463e4ef8ae6ead62a5273666 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_779fa337463e4ef8ae6ead62a5273666.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_b42ca53def844176b63729d6ad4c44aa = L.circleMarker(
+                [32.7151776, -109.1004486],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#37e6d8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#37e6d8",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_fd9a7d8403344535b88356fb2bf98a28 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0947c595aa974f17a2b84fb7048bdd18 = $(`<div id="html_0947c595aa974f17a2b84fb7048bdd18" style="width: 100.0%; height: 100.0%;">Duncan, Greenlee</div>`)[0];
+                popup_fd9a7d8403344535b88356fb2bf98a28.setContent(html_0947c595aa974f17a2b84fb7048bdd18);
+            
+
+            circle_marker_b42ca53def844176b63729d6ad4c44aa.bindPopup(popup_fd9a7d8403344535b88356fb2bf98a28)
+            ;
+
+            
+        
+    
+        var marker_41e76296985d45b4bad9061820e80f89 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_41e76296985d45b4bad9061820e80f89.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_a325ffe6cd0947e983cabb9738e1d4f2 = L.circleMarker(
+                [34.1111581, -109.291475],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5af8c8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5af8c8",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_3808b27b3b8d4b17b0bb4070d791ac49 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9b6836c5232b4956b1d6b38d50c7bf8e = $(`<div id="html_9b6836c5232b4956b1d6b38d50c7bf8e" style="width: 100.0%; height: 100.0%;">Eagar, Apache</div>`)[0];
+                popup_3808b27b3b8d4b17b0bb4070d791ac49.setContent(html_9b6836c5232b4956b1d6b38d50c7bf8e);
+            
+
+            circle_marker_a325ffe6cd0947e983cabb9738e1d4f2.bindPopup(popup_3808b27b3b8d4b17b0bb4070d791ac49)
+            ;
+
+            
+        
+    
+        var marker_27f3f6d463644a108b3a402f491b0fbf = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_27f3f6d463644a108b3a402f491b0fbf.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_bd6866a1481a4cc39057bf45c16c6d95 = L.circleMarker(
+                [33.6130338, -112.3244866],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_8523ad47ee7e4f888d31bf45dd2be786 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ec2563e61f544b098d7f2ef86d43d478 = $(`<div id="html_ec2563e61f544b098d7f2ef86d43d478" style="width: 100.0%; height: 100.0%;">El Mirage, Maricopa</div>`)[0];
+                popup_8523ad47ee7e4f888d31bf45dd2be786.setContent(html_ec2563e61f544b098d7f2ef86d43d478);
+            
+
+            circle_marker_bd6866a1481a4cc39057bf45c16c6d95.bindPopup(popup_8523ad47ee7e4f888d31bf45dd2be786)
+            ;
+
+            
+        
+    
+        var marker_cad8f2a8a47c440d91a0a1fce7bf132b = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_cad8f2a8a47c440d91a0a1fce7bf132b.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_53e9fd08ae8145d0b089f065492818a5 = L.circleMarker(
+                [32.7557002, -111.5550419],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_dd26b3169f7f43c381800f70e7dfb660 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_789d8a7fd0614c26ac35faee6569d845 = $(`<div id="html_789d8a7fd0614c26ac35faee6569d845" style="width: 100.0%; height: 100.0%;">Eloy, Pinal</div>`)[0];
+                popup_dd26b3169f7f43c381800f70e7dfb660.setContent(html_789d8a7fd0614c26ac35faee6569d845);
+            
+
+            circle_marker_53e9fd08ae8145d0b089f065492818a5.bindPopup(popup_dd26b3169f7f43c381800f70e7dfb660)
+            ;
+
+            
+        
+    
+        var marker_4724cf4a738344eab242fd6f655e117c = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_4724cf4a738344eab242fd6f655e117c.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_f3f21b4f41c34e298c45f4fa7cc713b2 = L.circleMarker(
+                [35.1987522, -111.6518229],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_1ca4ad42c82b4871bc8a2931c097a6a7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_49b498e81c6e47a9b4f0e199c3230f74 = $(`<div id="html_49b498e81c6e47a9b4f0e199c3230f74" style="width: 100.0%; height: 100.0%;">Flagstaff, Coconino</div>`)[0];
+                popup_1ca4ad42c82b4871bc8a2931c097a6a7.setContent(html_49b498e81c6e47a9b4f0e199c3230f74);
+            
+
+            circle_marker_f3f21b4f41c34e298c45f4fa7cc713b2.bindPopup(popup_1ca4ad42c82b4871bc8a2931c097a6a7)
+            ;
+
+            
+        
+    
+        var marker_4bec8d7bc817473b8c53556c04e26b3e = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_4bec8d7bc817473b8c53556c04e26b3e.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_45005ac44d094587b33241ad8f4e791b = L.circleMarker(
+                [33.0314508, -111.3873431],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_bdf6c16f0764410683fcf93173b79785 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e347128613de469fbec0fec79c9c1fc8 = $(`<div id="html_e347128613de469fbec0fec79c9c1fc8" style="width: 100.0%; height: 100.0%;">Florence, Pinal</div>`)[0];
+                popup_bdf6c16f0764410683fcf93173b79785.setContent(html_e347128613de469fbec0fec79c9c1fc8);
+            
+
+            circle_marker_45005ac44d094587b33241ad8f4e791b.bindPopup(popup_bdf6c16f0764410683fcf93173b79785)
+            ;
+
+            
+        
+    
+        var marker_46fc7a679a464bb799db4e88793bd364 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_46fc7a679a464bb799db4e88793bd364.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_a6771476bc54401581cb4e657bc5173b = L.circleMarker(
+                [33.6117105, -111.7173613],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_af6b40d732744e839e2e9774b0ff6d31 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_05ce7d68807e4fecaeb09178f0321ffc = $(`<div id="html_05ce7d68807e4fecaeb09178f0321ffc" style="width: 100.0%; height: 100.0%;">Fountain Hills, Maricopa</div>`)[0];
+                popup_af6b40d732744e839e2e9774b0ff6d31.setContent(html_05ce7d68807e4fecaeb09178f0321ffc);
+            
+
+            circle_marker_a6771476bc54401581cb4e657bc5173b.bindPopup(popup_af6b40d732744e839e2e9774b0ff6d31)
+            ;
+
+            
+        
+    
+        var marker_fd492086e68447d2886d86c667d1cab1 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_fd492086e68447d2886d86c667d1cab1.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_d0dc1510a86340c1b4ea27db02617ac8 = L.circleMarker(
+                [36.945542, -112.5265889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_31bab7f8c5d94ea19759cf2f385cf0a1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3998b1aee5a442a694e89a9d0a6b82cf = $(`<div id="html_3998b1aee5a442a694e89a9d0a6b82cf" style="width: 100.0%; height: 100.0%;">Fredonia, Coconino</div>`)[0];
+                popup_31bab7f8c5d94ea19759cf2f385cf0a1.setContent(html_3998b1aee5a442a694e89a9d0a6b82cf);
+            
+
+            circle_marker_d0dc1510a86340c1b4ea27db02617ac8.bindPopup(popup_31bab7f8c5d94ea19759cf2f385cf0a1)
+            ;
+
+            
+        
+    
+        var marker_298d0f1e90fd492093d241f14d0a4088 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_298d0f1e90fd492093d241f14d0a4088.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_7d4d27ba6bfb4e11940b2468e2198dcc = L.circleMarker(
+                [32.9478267, -112.7168239],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_5f4682129df04bcba1c4853f4a88cfff = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d5068814913c49d6ab5a0dcdc0598ad5 = $(`<div id="html_d5068814913c49d6ab5a0dcdc0598ad5" style="width: 100.0%; height: 100.0%;">Gila Bend, Maricopa</div>`)[0];
+                popup_5f4682129df04bcba1c4853f4a88cfff.setContent(html_d5068814913c49d6ab5a0dcdc0598ad5);
+            
+
+            circle_marker_7d4d27ba6bfb4e11940b2468e2198dcc.bindPopup(popup_5f4682129df04bcba1c4853f4a88cfff)
+            ;
+
+            
+        
+    
+        var marker_157827129397457bbceea14e78c5a7f5 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_157827129397457bbceea14e78c5a7f5.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_68de75dd1ca8496eba242481c5067714 = L.circleMarker(
+                [33.3527632, -111.7890373],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_7d138a05b1354481be164eb0d7616998 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_70ec190678e04dc489de1752be1f1b88 = $(`<div id="html_70ec190678e04dc489de1752be1f1b88" style="width: 100.0%; height: 100.0%;">Gilbert, Maricopa</div>`)[0];
+                popup_7d138a05b1354481be164eb0d7616998.setContent(html_70ec190678e04dc489de1752be1f1b88);
+            
+
+            circle_marker_68de75dd1ca8496eba242481c5067714.bindPopup(popup_7d138a05b1354481be164eb0d7616998)
+            ;
+
+            
+        
+    
+        var marker_1c8a0729c14647289cff8136c7573e0a = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_1c8a0729c14647289cff8136c7573e0a.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_486860426c5f43558f854717d5c01c6e = L.circleMarker(
+                [33.5386858, -112.1859941],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_21b86e72eef1425e87836f417678f50d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b46cf0e5e3fd45ca8b93819703c4954c = $(`<div id="html_b46cf0e5e3fd45ca8b93819703c4954c" style="width: 100.0%; height: 100.0%;">Glendale, Maricopa</div>`)[0];
+                popup_21b86e72eef1425e87836f417678f50d.setContent(html_b46cf0e5e3fd45ca8b93819703c4954c);
+            
+
+            circle_marker_486860426c5f43558f854717d5c01c6e.bindPopup(popup_21b86e72eef1425e87836f417678f50d)
+            ;
+
+            
+        
+    
+        var marker_ea55fe167ffb4f6b85d72cc658f8a6a0 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_ea55fe167ffb4f6b85d72cc658f8a6a0.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_48e557ba7195403581fb798e6f61bf3d = L.circleMarker(
+                [33.3959511, -110.787177],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#a4f89f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#a4f89f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_3806c52932b74d138be415da70638545 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b61e8f2ffd4b4003a64e6d176e7e933d = $(`<div id="html_b61e8f2ffd4b4003a64e6d176e7e933d" style="width: 100.0%; height: 100.0%;">Globe, Gila</div>`)[0];
+                popup_3806c52932b74d138be415da70638545.setContent(html_b61e8f2ffd4b4003a64e6d176e7e933d);
+            
+
+            circle_marker_48e557ba7195403581fb798e6f61bf3d.bindPopup(popup_3806c52932b74d138be415da70638545)
+            ;
+
+            
+        
+    
+        var marker_632414b8901446cbbfe710fe9e19e24d = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_632414b8901446cbbfe710fe9e19e24d.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_b3b24af23adf4c7397e577d4bff1a56a = L.circleMarker(
+                [33.4353672, -112.3576005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_071e101814d5465ea9f2002e03626bb4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5e4a41f3896a4aabbe758a5f7df30c55 = $(`<div id="html_5e4a41f3896a4aabbe758a5f7df30c55" style="width: 100.0%; height: 100.0%;">Goodyear, Maricopa</div>`)[0];
+                popup_071e101814d5465ea9f2002e03626bb4.setContent(html_5e4a41f3896a4aabbe758a5f7df30c55);
+            
+
+            circle_marker_b3b24af23adf4c7397e577d4bff1a56a.bindPopup(popup_071e101814d5465ea9f2002e03626bb4)
+            ;
+
+            
+        
+    
+        var marker_722aee10ce2745e4a392199d93d3a2ce = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_722aee10ce2745e4a392199d93d3a2ce.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_387e6723d81b4759bac7c93d49f46bac = L.circleMarker(
+                [33.3631249, -111.9625328],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_3ae5f957068f4caa9f7d7dab37b4c915 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dfd4e43ee01942829f07db42bb82e3d4 = $(`<div id="html_dfd4e43ee01942829f07db42bb82e3d4" style="width: 100.0%; height: 100.0%;">Guadalupe, Maricopa</div>`)[0];
+                popup_3ae5f957068f4caa9f7d7dab37b4c915.setContent(html_dfd4e43ee01942829f07db42bb82e3d4);
+            
+
+            circle_marker_387e6723d81b4759bac7c93d49f46bac.bindPopup(popup_3ae5f957068f4caa9f7d7dab37b4c915)
+            ;
+
+            
+        
+    
+        var marker_c18ba81ba4ea4799b6093c2192f67140 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_c18ba81ba4ea4799b6093c2192f67140.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_246fc3ed83544b66846116d160994ddb = L.circleMarker(
+                [32.998027, -110.78085681694215],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#a4f89f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#a4f89f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_ad2c7c17479f4f17ae3cfe350456d757 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_470bb819e9504207889cebaf282c65d8 = $(`<div id="html_470bb819e9504207889cebaf282c65d8" style="width: 100.0%; height: 100.0%;">Hayden, Gila</div>`)[0];
+                popup_ad2c7c17479f4f17ae3cfe350456d757.setContent(html_470bb819e9504207889cebaf282c65d8);
+            
+
+            circle_marker_246fc3ed83544b66846116d160994ddb.bindPopup(popup_ad2c7c17479f4f17ae3cfe350456d757)
+            ;
+
+            
+        
+    
+        var marker_002fd98710114f72af68c204564f66c3 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_002fd98710114f72af68c204564f66c3.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_7ee2ba567591432bbbc2c82325f8a97e = L.circleMarker(
+                [34.9037063, -110.1593164],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c8e688",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c8e688",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_58851f42f82147d788fcd8c357eb04e3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ee8c3df77bc8446cb9d3a9d580fb5778 = $(`<div id="html_ee8c3df77bc8446cb9d3a9d580fb5778" style="width: 100.0%; height: 100.0%;">Holbrook, Navajo</div>`)[0];
+                popup_58851f42f82147d788fcd8c357eb04e3.setContent(html_ee8c3df77bc8446cb9d3a9d580fb5778);
+            
+
+            circle_marker_7ee2ba567591432bbbc2c82325f8a97e.bindPopup(popup_58851f42f82147d788fcd8c357eb04e3)
+            ;
+
+            
+        
+    
+        var marker_7d962ffa22454fdabea97619946e92e3 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_7d962ffa22454fdabea97619946e92e3.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_1887252894784713ae404d12743c4959 = L.circleMarker(
+                [31.6278703, -110.3339678],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#386df9",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#386df9",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_5988f18a4e7944eabf8c615660bc08cc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2daedc4f98b74ba0ae40885a9eeab8b2 = $(`<div id="html_2daedc4f98b74ba0ae40885a9eeab8b2" style="width: 100.0%; height: 100.0%;">Huachuca City, Cochise</div>`)[0];
+                popup_5988f18a4e7944eabf8c615660bc08cc.setContent(html_2daedc4f98b74ba0ae40885a9eeab8b2);
+            
+
+            circle_marker_1887252894784713ae404d12743c4959.bindPopup(popup_5988f18a4e7944eabf8c615660bc08cc)
+            ;
+
+            
+        
+    
+        var marker_ed249343e3c9434dabf15d9da7c4fbae = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_ed249343e3c9434dabf15d9da7c4fbae.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_84455c51d007474bb383d7e232262c7e = L.circleMarker(
+                [34.7489107, -112.1137716],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#12c8e6",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#12c8e6",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_f8bdd9a9bf0e4dcb8c223b152b06613d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_84008814e72b4cc08fb5bdc81180e12e = $(`<div id="html_84008814e72b4cc08fb5bdc81180e12e" style="width: 100.0%; height: 100.0%;">Jerome, Yavapai</div>`)[0];
+                popup_f8bdd9a9bf0e4dcb8c223b152b06613d.setContent(html_84008814e72b4cc08fb5bdc81180e12e);
+            
+
+            circle_marker_84455c51d007474bb383d7e232262c7e.bindPopup(popup_f8bdd9a9bf0e4dcb8c223b152b06613d)
+            ;
+
+            
+        
+    
+        var marker_a4d39a5bfa774fc69881f954ee9b07ff = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_a4d39a5bfa774fc69881f954ee9b07ff.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_bca35438f0a94d7bb7b629510462ec5e = L.circleMarker(
+                [33.0570085, -110.9106656],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_f329acc091524f0cab9e6f6e7ac6dffd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_deabcf281c9b43ff91a72970892ed792 = $(`<div id="html_deabcf281c9b43ff91a72970892ed792" style="width: 100.0%; height: 100.0%;">Kearny, Pinal</div>`)[0];
+                popup_f329acc091524f0cab9e6f6e7ac6dffd.setContent(html_deabcf281c9b43ff91a72970892ed792);
+            
+
+            circle_marker_bca35438f0a94d7bb7b629510462ec5e.bindPopup(popup_f329acc091524f0cab9e6f6e7ac6dffd)
+            ;
+
+            
+        
+    
+        var marker_9654015c6a98416fa2fe53b46e2c81db = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_9654015c6a98416fa2fe53b46e2c81db.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_f5fa2ab7a9794cdeb3ff4d78c84af29c = L.circleMarker(
+                [35.189443, -114.0530065],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#149df1",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#149df1",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_343b852ad6914f62a89e46ec37b662e6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_08784c22a4ad4a3fbdd4d0b10cd28ab1 = $(`<div id="html_08784c22a4ad4a3fbdd4d0b10cd28ab1" style="width: 100.0%; height: 100.0%;">Kingman, Mohave</div>`)[0];
+                popup_343b852ad6914f62a89e46ec37b662e6.setContent(html_08784c22a4ad4a3fbdd4d0b10cd28ab1);
+            
+
+            circle_marker_f5fa2ab7a9794cdeb3ff4d78c84af29c.bindPopup(popup_343b852ad6914f62a89e46ec37b662e6)
+            ;
+
+            
+        
+    
+        var marker_b5e95b97f2d0456f87ad53188aaaf9ef = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_b5e95b97f2d0456f87ad53188aaaf9ef.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_1fe98eb0de2a4782b6486815d1f1c257 = L.circleMarker(
+                [34.4838502, -114.3224495],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#149df1",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#149df1",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_ab861028ad8847f9b5909babb7e3d402 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_675841e79e034fc59800262c6a1c47ec = $(`<div id="html_675841e79e034fc59800262c6a1c47ec" style="width: 100.0%; height: 100.0%;">Lake Havasu City, Mohave</div>`)[0];
+                popup_ab861028ad8847f9b5909babb7e3d402.setContent(html_675841e79e034fc59800262c6a1c47ec);
+            
+
+            circle_marker_1fe98eb0de2a4782b6486815d1f1c257.bindPopup(popup_ab861028ad8847f9b5909babb7e3d402)
+            ;
+
+            
+        
+    
+        var marker_69b36c95bbff4bd4a995ba9001d6de9e = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_69b36c95bbff4bd4a995ba9001d6de9e.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_d8337fddcf26475e85d33ffd30212f9b = L.circleMarker(
+                [33.4933796, -112.3581244],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_3afefc5a063845029df15187f106f636 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8f78fbc55deb4ff684476913e5e2a869 = $(`<div id="html_8f78fbc55deb4ff684476913e5e2a869" style="width: 100.0%; height: 100.0%;">Litchfield Park, Maricopa</div>`)[0];
+                popup_3afefc5a063845029df15187f106f636.setContent(html_8f78fbc55deb4ff684476913e5e2a869);
+            
+
+            circle_marker_d8337fddcf26475e85d33ffd30212f9b.bindPopup(popup_3afefc5a063845029df15187f106f636)
+            ;
+
+            
+        
+    
+        var marker_007be76f813141c9826e1e73462ef6c4 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_007be76f813141c9826e1e73462ef6c4.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_758cb89491714b1f900bf960dc97aa70 = L.circleMarker(
+                [32.722568, -110.6406547],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_8bacdb1301d7461a828b0e30af3d8837 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_008039a1f3c04f479841140cbfb2e342 = $(`<div id="html_008039a1f3c04f479841140cbfb2e342" style="width: 100.0%; height: 100.0%;">Mammoth, Pinal</div>`)[0];
+                popup_8bacdb1301d7461a828b0e30af3d8837.setContent(html_008039a1f3c04f479841140cbfb2e342);
+            
+
+            circle_marker_758cb89491714b1f900bf960dc97aa70.bindPopup(popup_8bacdb1301d7461a828b0e30af3d8837)
+            ;
+
+            
+        
+    
+        var marker_b4b432068b5e4233aaf7813febfd49a7 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_b4b432068b5e4233aaf7813febfd49a7.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_a358c169551a44c5bc1eba6b4a6bbaee = L.circleMarker(
+                [32.4446988, -111.2157091],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ecc86f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ecc86f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_dec1ca7c3bcb47d2ae9ae63f787196de = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6cc74666811f476697c18e2d1642c666 = $(`<div id="html_6cc74666811f476697c18e2d1642c666" style="width: 100.0%; height: 100.0%;">Marana, Pima</div>`)[0];
+                popup_dec1ca7c3bcb47d2ae9ae63f787196de.setContent(html_6cc74666811f476697c18e2d1642c666);
+            
+
+            circle_marker_a358c169551a44c5bc1eba6b4a6bbaee.bindPopup(popup_dec1ca7c3bcb47d2ae9ae63f787196de)
+            ;
+
+            
+        
+    
+        var marker_ddf8905557344570aa079d18cfa99570 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_ddf8905557344570aa079d18cfa99570.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_82a404efb1d4411b8e98c7419ad1316c = L.circleMarker(
+                [33.058129, -112.0477554],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_baf4ffaca48b445b8a5e2997cb363953 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7e4a404ed2a44a59935605727c5518d5 = $(`<div id="html_7e4a404ed2a44a59935605727c5518d5" style="width: 100.0%; height: 100.0%;">Maricopa, Pinal</div>`)[0];
+                popup_baf4ffaca48b445b8a5e2997cb363953.setContent(html_7e4a404ed2a44a59935605727c5518d5);
+            
+
+            circle_marker_82a404efb1d4411b8e98c7419ad1316c.bindPopup(popup_baf4ffaca48b445b8a5e2997cb363953)
+            ;
+
+            
+        
+    
+        var marker_ee0da01aace14fc697c025d2bf311cd9 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_ee0da01aace14fc697c025d2bf311cd9.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_1b368af8a0c9410db23ce25dafe80f8b = L.circleMarker(
+                [33.4151117, -111.8314773],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_19118b5d229840d1829cfed2be642945 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5eed2a2c75534495885ab36e621f2f2b = $(`<div id="html_5eed2a2c75534495885ab36e621f2f2b" style="width: 100.0%; height: 100.0%;">Mesa, Maricopa</div>`)[0];
+                popup_19118b5d229840d1829cfed2be642945.setContent(html_5eed2a2c75534495885ab36e621f2f2b);
+            
+
+            circle_marker_1b368af8a0c9410db23ce25dafe80f8b.bindPopup(popup_19118b5d229840d1829cfed2be642945)
+            ;
+
+            
+        
+    
+        var marker_eac7a1e6a3ad422d847c7fb6ca3ca911 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_eac7a1e6a3ad422d847c7fb6ca3ca911.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_82a2bb469d804c6c8f4df166af1b6657 = L.circleMarker(
+                [33.3994776, -110.87095],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#a4f89f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#a4f89f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_fd0e3833ea484c2b9e2857e0b33184b9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5f93538645a64894b174fee273c4091a = $(`<div id="html_5f93538645a64894b174fee273c4091a" style="width: 100.0%; height: 100.0%;">Miami, Gila</div>`)[0];
+                popup_fd0e3833ea484c2b9e2857e0b33184b9.setContent(html_5f93538645a64894b174fee273c4091a);
+            
+
+            circle_marker_82a2bb469d804c6c8f4df166af1b6657.bindPopup(popup_fd0e3833ea484c2b9e2857e0b33184b9)
+            ;
+
+            
+        
+    
+        var marker_5034b77a6a7d43408cfa8d8bc09778a8 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_5034b77a6a7d43408cfa8d8bc09778a8.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_49e0979c120440008663095ed0d7cfdc = L.circleMarker(
+                [31.3402134, -110.9360818],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff9d53",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff9d53",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_597aaac5cdf449e0bebca2f41072996e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d280c49c7a2548e1afdb7efd00a52217 = $(`<div id="html_d280c49c7a2548e1afdb7efd00a52217" style="width: 100.0%; height: 100.0%;">Nogales, Santa Cruz</div>`)[0];
+                popup_597aaac5cdf449e0bebca2f41072996e.setContent(html_d280c49c7a2548e1afdb7efd00a52217);
+            
+
+            circle_marker_49e0979c120440008663095ed0d7cfdc.bindPopup(popup_597aaac5cdf449e0bebca2f41072996e)
+            ;
+
+            
+        
+    
+        var marker_a5f8248e197945fe9536aa1dd6d8802e = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_a5f8248e197945fe9536aa1dd6d8802e.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_e9edbfe298bc4fc3b238cb8907ca79eb = L.circleMarker(
+                [32.3909071, -110.966488],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ecc86f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ecc86f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_ae4212d04c774c319ffb2d9230661ba7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_48dffeb8c74040c2bc0a375c417417ec = $(`<div id="html_48dffeb8c74040c2bc0a375c417417ec" style="width: 100.0%; height: 100.0%;">Oro Valley, Pima</div>`)[0];
+                popup_ae4212d04c774c319ffb2d9230661ba7.setContent(html_48dffeb8c74040c2bc0a375c417417ec);
+            
+
+            circle_marker_e9edbfe298bc4fc3b238cb8907ca79eb.bindPopup(popup_ae4212d04c774c319ffb2d9230661ba7)
+            ;
+
+            
+        
+    
+        var marker_937eaaa18df74b68b353d85f9674248f = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_937eaaa18df74b68b353d85f9674248f.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_fbc4ff81895b4f8f85472c028b4d2b08 = L.circleMarker(
+                [36.9148305, -111.4572942],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_ba7ff30156e84ac9bb6075d57c8c87d9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e0d1d74afec342d88b1baf9a22ace737 = $(`<div id="html_e0d1d74afec342d88b1baf9a22ace737" style="width: 100.0%; height: 100.0%;">Page, Coconino</div>`)[0];
+                popup_ba7ff30156e84ac9bb6075d57c8c87d9.setContent(html_e0d1d74afec342d88b1baf9a22ace737);
+            
+
+            circle_marker_fbc4ff81895b4f8f85472c028b4d2b08.bindPopup(popup_ba7ff30156e84ac9bb6075d57c8c87d9)
+            ;
+
+            
+        
+    
+        var marker_ea9b91dc6d5646bfbfd55fe0c0226154 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_ea9b91dc6d5646bfbfd55fe0c0226154.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_76be2aaa58f34456a3b1cf980536e8bd = L.circleMarker(
+                [33.5428006, -111.9556001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_a68a383e4538416a823951f5d414c907 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_496cc45b758f4d258469cfa33756d355 = $(`<div id="html_496cc45b758f4d258469cfa33756d355" style="width: 100.0%; height: 100.0%;">Paradise Valley, Maricopa</div>`)[0];
+                popup_a68a383e4538416a823951f5d414c907.setContent(html_496cc45b758f4d258469cfa33756d355);
+            
+
+            circle_marker_76be2aaa58f34456a3b1cf980536e8bd.bindPopup(popup_a68a383e4538416a823951f5d414c907)
+            ;
+
+            
+        
+    
+        var marker_2d2b518ef477466397666544f7e08103 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_2d2b518ef477466397666544f7e08103.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_e69fc532fa1844708f6cd4354d411b42 = L.circleMarker(
+                [34.1498408, -114.2889608],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff6d38",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff6d38",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_a763bdf7fde7455eb9c1c09e6c595e09 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9c91ec08cca74055a395f1fc92d16a48 = $(`<div id="html_9c91ec08cca74055a395f1fc92d16a48" style="width: 100.0%; height: 100.0%;">Parker, La Paz</div>`)[0];
+                popup_a763bdf7fde7455eb9c1c09e6c595e09.setContent(html_9c91ec08cca74055a395f1fc92d16a48);
+            
+
+            circle_marker_e69fc532fa1844708f6cd4354d411b42.bindPopup(popup_a763bdf7fde7455eb9c1c09e6c595e09)
+            ;
+
+            
+        
+    
+        var marker_e998746502014c3a8a80fba8b38cd43f = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_e998746502014c3a8a80fba8b38cd43f.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_37dc0791aaef478897a314ed25fcd672 = L.circleMarker(
+                [31.5393138, -110.7563046],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff9d53",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff9d53",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_d9f934d60b2e4f1782d0fa98a8a890b9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_66f0c4aa93074b1b8b9ebdd022b3533e = $(`<div id="html_66f0c4aa93074b1b8b9ebdd022b3533e" style="width: 100.0%; height: 100.0%;">Patagonia, Santa Cruz</div>`)[0];
+                popup_d9f934d60b2e4f1782d0fa98a8a890b9.setContent(html_66f0c4aa93074b1b8b9ebdd022b3533e);
+            
+
+            circle_marker_37dc0791aaef478897a314ed25fcd672.bindPopup(popup_d9f934d60b2e4f1782d0fa98a8a890b9)
+            ;
+
+            
+        
+    
+        var marker_8ef807a1da6542e0b5a3f410e037f5f1 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_8ef807a1da6542e0b5a3f410e037f5f1.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_2575db138bbb4c819876f73c669f4904 = L.circleMarker(
+                [34.2308684, -111.3251355],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#a4f89f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#a4f89f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_6035c5d17df0471e8983305aa8ba8801 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1dc8136a54ba4c7d9a0a1be76159d10f = $(`<div id="html_1dc8136a54ba4c7d9a0a1be76159d10f" style="width: 100.0%; height: 100.0%;">Payson, Gila</div>`)[0];
+                popup_6035c5d17df0471e8983305aa8ba8801.setContent(html_1dc8136a54ba4c7d9a0a1be76159d10f);
+            
+
+            circle_marker_2575db138bbb4c819876f73c669f4904.bindPopup(popup_6035c5d17df0471e8983305aa8ba8801)
+            ;
+
+            
+        
+    
+        var marker_a81aa8f86b374cc09716646b4ba3e9cc = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_a81aa8f86b374cc09716646b4ba3e9cc.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_1cc2ba35111f4874bf083c731da6bf7f = L.circleMarker(
+                [33.5806115, -112.2372942],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_c8da35bb911f4132b0f70a64f15a076c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ceb8272bdd244be68d534938ebad2e7e = $(`<div id="html_ceb8272bdd244be68d534938ebad2e7e" style="width: 100.0%; height: 100.0%;">Peoria, Maricopa</div>`)[0];
+                popup_c8da35bb911f4132b0f70a64f15a076c.setContent(html_ceb8272bdd244be68d534938ebad2e7e);
+            
+
+            circle_marker_1cc2ba35111f4874bf083c731da6bf7f.bindPopup(popup_c8da35bb911f4132b0f70a64f15a076c)
+            ;
+
+            
+        
+    
+        var marker_808b231f6954495da9d61d2d176c8fb5 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_808b231f6954495da9d61d2d176c8fb5.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_5ded4166bb1640e7b2876f95ecd3d3f0 = L.circleMarker(
+                [33.4484367, -112.0741417],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_12ee22ef0d6946c4972b6489d16eb041 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0587e360124a41478067cb7ee3a5fdd4 = $(`<div id="html_0587e360124a41478067cb7ee3a5fdd4" style="width: 100.0%; height: 100.0%;">Phoenix, Maricopa</div>`)[0];
+                popup_12ee22ef0d6946c4972b6489d16eb041.setContent(html_0587e360124a41478067cb7ee3a5fdd4);
+            
+
+            circle_marker_5ded4166bb1640e7b2876f95ecd3d3f0.bindPopup(popup_12ee22ef0d6946c4972b6489d16eb041)
+            ;
+
+            
+        
+    
+        var marker_2c894c7177c94c92971798ce003ca6fc = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_2c894c7177c94c92971798ce003ca6fc.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_d6417e8c9b66470f9222a2b0c85dfc65 = L.circleMarker(
+                [32.8961755, -109.8275815],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff381c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff381c",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_a3d74a07006f4ac39ed3c3ad164cf5fd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_353511da872f462dbc3c1cc1835a30e3 = $(`<div id="html_353511da872f462dbc3c1cc1835a30e3" style="width: 100.0%; height: 100.0%;">Pima, Graham</div>`)[0];
+                popup_a3d74a07006f4ac39ed3c3ad164cf5fd.setContent(html_353511da872f462dbc3c1cc1835a30e3);
+            
+
+            circle_marker_d6417e8c9b66470f9222a2b0c85dfc65.bindPopup(popup_a3d74a07006f4ac39ed3c3ad164cf5fd)
+            ;
+
+            
+        
+    
+        var marker_0df025fbe462410996d571ac8c47a6c8 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_0df025fbe462410996d571ac8c47a6c8.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_fff3d7cb70b34c9cbca405d287895348 = L.circleMarker(
+                [34.1425438, -109.9603843],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c8e688",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c8e688",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_6d47e0981d0b4ffba792e066fd1d2a44 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_38eb1f1bba8448f59b1160e880be8a6c = $(`<div id="html_38eb1f1bba8448f59b1160e880be8a6c" style="width: 100.0%; height: 100.0%;">Pinetop-Lakeside, Navajo</div>`)[0];
+                popup_6d47e0981d0b4ffba792e066fd1d2a44.setContent(html_38eb1f1bba8448f59b1160e880be8a6c);
+            
+
+            circle_marker_fff3d7cb70b34c9cbca405d287895348.bindPopup(popup_6d47e0981d0b4ffba792e066fd1d2a44)
+            ;
+
+            
+        
+    
+        var marker_db05b2a3a2a84142b85cf5330b2eb97c = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_db05b2a3a2a84142b85cf5330b2eb97c.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_4fb2e8389e254fa19dd10ee1da0ee764 = L.circleMarker(
+                [34.5399962, -112.4687616],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#12c8e6",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#12c8e6",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_19e26422941049a6b43ff898cf7b14f3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_268d1c3962d04094b774deb8ca5dba8b = $(`<div id="html_268d1c3962d04094b774deb8ca5dba8b" style="width: 100.0%; height: 100.0%;">Prescott, Yavapai</div>`)[0];
+                popup_19e26422941049a6b43ff898cf7b14f3.setContent(html_268d1c3962d04094b774deb8ca5dba8b);
+            
+
+            circle_marker_4fb2e8389e254fa19dd10ee1da0ee764.bindPopup(popup_19e26422941049a6b43ff898cf7b14f3)
+            ;
+
+            
+        
+    
+        var marker_a0897de10e3c4aba99eb77da2ee5a4d1 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_a0897de10e3c4aba99eb77da2ee5a4d1.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_40207782337648c6a848e89e183ec0c2 = L.circleMarker(
+                [34.6100243, -112.315721],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#12c8e6",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#12c8e6",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_40b55eadf9bd4f1086f1b2af9be1b505 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1c3f08f1497e4085bb4acf16b85b3e82 = $(`<div id="html_1c3f08f1497e4085bb4acf16b85b3e82" style="width: 100.0%; height: 100.0%;">Prescott Valley, Yavapai</div>`)[0];
+                popup_40b55eadf9bd4f1086f1b2af9be1b505.setContent(html_1c3f08f1497e4085bb4acf16b85b3e82);
+            
+
+            circle_marker_40207782337648c6a848e89e183ec0c2.bindPopup(popup_40b55eadf9bd4f1086f1b2af9be1b505)
+            ;
+
+            
+        
+    
+        var marker_4b53d2455b8c4aecb9f44ee559ee601b = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_4b53d2455b8c4aecb9f44ee559ee601b.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_8d403aa1af3140f3a5f8e778a68407f4 = L.circleMarker(
+                [33.6639137, -114.2299486],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff6d38",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff6d38",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_b0e11abdc12640369b94e7aebfd6c1ca = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a2dd41ffbf134ae1a9209236b8d1bfe7 = $(`<div id="html_a2dd41ffbf134ae1a9209236b8d1bfe7" style="width: 100.0%; height: 100.0%;">Quartzsite, La Paz</div>`)[0];
+                popup_b0e11abdc12640369b94e7aebfd6c1ca.setContent(html_a2dd41ffbf134ae1a9209236b8d1bfe7);
+            
+
+            circle_marker_8d403aa1af3140f3a5f8e778a68407f4.bindPopup(popup_b0e11abdc12640369b94e7aebfd6c1ca)
+            ;
+
+            
+        
+    
+        var marker_cc1cb4de0476483b9433324bf83c4b07 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_cc1cb4de0476483b9433324bf83c4b07.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_3fc420686b46467fb7195fdd9b31a22f = L.circleMarker(
+                [33.2483858, -111.6341585],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_5719cde4ac6943b39e2026a4df217e76 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1283618be3da4beaa7aa6cd915fcaa6f = $(`<div id="html_1283618be3da4beaa7aa6cd915fcaa6f" style="width: 100.0%; height: 100.0%;">Queen Creek, Maricopa</div>`)[0];
+                popup_5719cde4ac6943b39e2026a4df217e76.setContent(html_1283618be3da4beaa7aa6cd915fcaa6f);
+            
+
+            circle_marker_3fc420686b46467fb7195fdd9b31a22f.bindPopup(popup_5719cde4ac6943b39e2026a4df217e76)
+            ;
+
+            
+        
+    
+        var marker_5a3ae824706c4bd3a4cb1a99248a04cc = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_5a3ae824706c4bd3a4cb1a99248a04cc.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_6ddb933772e74dafb07446dd5aa41225 = L.circleMarker(
+                [32.8339546, -109.70758],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff381c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff381c",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_1a8123b3dc214f8f82afa7d03130d44a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b4f28498c1c74e06a05f1df57f5a8b0c = $(`<div id="html_b4f28498c1c74e06a05f1df57f5a8b0c" style="width: 100.0%; height: 100.0%;">Safford, Graham</div>`)[0];
+                popup_1a8123b3dc214f8f82afa7d03130d44a.setContent(html_b4f28498c1c74e06a05f1df57f5a8b0c);
+            
+
+            circle_marker_6ddb933772e74dafb07446dd5aa41225.bindPopup(popup_1a8123b3dc214f8f82afa7d03130d44a)
+            ;
+
+            
+        
+    
+        var marker_68652cc209e94e93a466aefc3ecf00ae = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_68652cc209e94e93a466aefc3ecf00ae.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_628b62cb3359486a985b6eadbf969a7f = L.circleMarker(
+                [31.9575818, -110.955646],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ecc86f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ecc86f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_8bd752d8808048fdaddd79f37b458c13 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2c3edd3638d74a6fbe1bc547a98a2cfb = $(`<div id="html_2c3edd3638d74a6fbe1bc547a98a2cfb" style="width: 100.0%; height: 100.0%;">Sahuarita, Pima</div>`)[0];
+                popup_8bd752d8808048fdaddd79f37b458c13.setContent(html_2c3edd3638d74a6fbe1bc547a98a2cfb);
+            
+
+            circle_marker_628b62cb3359486a985b6eadbf969a7f.bindPopup(popup_8bd752d8808048fdaddd79f37b458c13)
+            ;
+
+            
+        
+    
+        var marker_32200aa3a22d48c1a72068161e84c16a = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_32200aa3a22d48c1a72068161e84c16a.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_3083e316cddc4a9b921bc81465a170ed = L.circleMarker(
+                [32.4934395, -114.7737551],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_e431204bf09e4e808c7fae508b31bcc5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1aef9a946439440284c2c84ee6c6329c = $(`<div id="html_1aef9a946439440284c2c84ee6c6329c" style="width: 100.0%; height: 100.0%;">San Luis, Yuma</div>`)[0];
+                popup_e431204bf09e4e808c7fae508b31bcc5.setContent(html_1aef9a946439440284c2c84ee6c6329c);
+            
+
+            circle_marker_3083e316cddc4a9b921bc81465a170ed.bindPopup(popup_e431204bf09e4e808c7fae508b31bcc5)
+            ;
+
+            
+        
+    
+        var marker_7c2695fddbce4587945b1df053fe5d49 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_7c2695fddbce4587945b1df053fe5d49.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_c21a3d78d3d54530a74692283ca2aed2 = L.circleMarker(
+                [33.4942189, -111.9260184],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_4a03a931405549d6af018f87e5108bf9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4d893ba450244fb198711f8090724bef = $(`<div id="html_4d893ba450244fb198711f8090724bef" style="width: 100.0%; height: 100.0%;">Scottsdale, Maricopa</div>`)[0];
+                popup_4a03a931405549d6af018f87e5108bf9.setContent(html_4d893ba450244fb198711f8090724bef);
+            
+
+            circle_marker_c21a3d78d3d54530a74692283ca2aed2.bindPopup(popup_4a03a931405549d6af018f87e5108bf9)
+            ;
+
+            
+        
+    
+        var marker_551b6fbae36d4561b6a51455523bcdf1 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_551b6fbae36d4561b6a51455523bcdf1.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_420dd65f45bb4a6087adca2802b0f143 = L.circleMarker(
+                [34.85056605, -111.83023542136569],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#12c8e6",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#12c8e6",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_de3a15ce422e4755bc45d3c2cf4da9ef = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ae184310999d40719b4d479294f014af = $(`<div id="html_ae184310999d40719b4d479294f014af" style="width: 100.0%; height: 100.0%;">Sedona, Yavapai</div>`)[0];
+                popup_de3a15ce422e4755bc45d3c2cf4da9ef.setContent(html_ae184310999d40719b4d479294f014af);
+            
+
+            circle_marker_420dd65f45bb4a6087adca2802b0f143.bindPopup(popup_de3a15ce422e4755bc45d3c2cf4da9ef)
+            ;
+
+            
+        
+    
+        var marker_6483b54a70fa47118c6da633caf75ca4 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_6483b54a70fa47118c6da633caf75ca4.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_c5f8f2ad0cd7490786637ebf662a62a1 = L.circleMarker(
+                [34.2542084, -110.0298327],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c8e688",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c8e688",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_52aedfb3801746738add7bb56c0f5a48 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cce27daa8a04424f88bcb6403709cc74 = $(`<div id="html_cce27daa8a04424f88bcb6403709cc74" style="width: 100.0%; height: 100.0%;">Show Low, Navajo</div>`)[0];
+                popup_52aedfb3801746738add7bb56c0f5a48.setContent(html_cce27daa8a04424f88bcb6403709cc74);
+            
+
+            circle_marker_c5f8f2ad0cd7490786637ebf662a62a1.bindPopup(popup_52aedfb3801746738add7bb56c0f5a48)
+            ;
+
+            
+        
+    
+        var marker_d062be63a2fb447595711f70ce3acfd0 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_d062be63a2fb447595711f70ce3acfd0.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_66ea8fcb38ac4bddbc1ccf1308cbea41 = L.circleMarker(
+                [31.5455709, -110.2772249],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#386df9",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#386df9",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_01abe6082d434bf7bbd3ff7a5c5798f5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6c98287657604e488c894f5e9ac0231a = $(`<div id="html_6c98287657604e488c894f5e9ac0231a" style="width: 100.0%; height: 100.0%;">Sierra Vista, Cochise</div>`)[0];
+                popup_01abe6082d434bf7bbd3ff7a5c5798f5.setContent(html_6c98287657604e488c894f5e9ac0231a);
+            
+
+            circle_marker_66ea8fcb38ac4bddbc1ccf1308cbea41.bindPopup(popup_01abe6082d434bf7bbd3ff7a5c5798f5)
+            ;
+
+            
+        
+    
+        var marker_fdd93777449345acb651f642de836566 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_fdd93777449345acb651f642de836566.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_31bbaee9a2ee4fe18feb8d2d9404681d = L.circleMarker(
+                [34.5114704, -110.0796089],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c8e688",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c8e688",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_e3d26655fbd34797b74914a824da493c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_611f7c54bddf4ad09c91627a73eaf108 = $(`<div id="html_611f7c54bddf4ad09c91627a73eaf108" style="width: 100.0%; height: 100.0%;">Snowflake, Navajo</div>`)[0];
+                popup_e3d26655fbd34797b74914a824da493c.setContent(html_611f7c54bddf4ad09c91627a73eaf108);
+            
+
+            circle_marker_31bbaee9a2ee4fe18feb8d2d9404681d.bindPopup(popup_e3d26655fbd34797b74914a824da493c)
+            ;
+
+            
+        
+    
+        var marker_6f64e7b885f14e779f5c07d7cfe89b5a = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_6f64e7b885f14e779f5c07d7cfe89b5a.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_6c6697f8ef084713bd2156267015586e = L.circleMarker(
+                [32.5964404, -114.709677],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_9bc55af13ff84777a2c10422e4481d20 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7e4fc8e3e52c48fbbd954bc70ddbebc6 = $(`<div id="html_7e4fc8e3e52c48fbbd954bc70ddbebc6" style="width: 100.0%; height: 100.0%;">Somerton, Yuma</div>`)[0];
+                popup_9bc55af13ff84777a2c10422e4481d20.setContent(html_7e4fc8e3e52c48fbbd954bc70ddbebc6);
+            
+
+            circle_marker_6c6697f8ef084713bd2156267015586e.bindPopup(popup_9bc55af13ff84777a2c10422e4481d20)
+            ;
+
+            
+        
+    
+        var marker_5284e625104b46c1ac966200c7362b08 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_5284e625104b46c1ac966200c7362b08.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_aca55a35d0e24e299ccfe12d8ff31968 = L.circleMarker(
+                [32.1994951, -110.9683439],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ecc86f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ecc86f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_c6087d130cb94bb9a62c28e440da1914 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_65eb63b5086040429e0f5e8e622503a9 = $(`<div id="html_65eb63b5086040429e0f5e8e622503a9" style="width: 100.0%; height: 100.0%;">South Tucson, Pima</div>`)[0];
+                popup_c6087d130cb94bb9a62c28e440da1914.setContent(html_65eb63b5086040429e0f5e8e622503a9);
+            
+
+            circle_marker_aca55a35d0e24e299ccfe12d8ff31968.bindPopup(popup_c6087d130cb94bb9a62c28e440da1914)
+            ;
+
+            
+        
+    
+        var marker_c24fb9b32bd84de1ad4b57ea7ee25a31 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_c24fb9b32bd84de1ad4b57ea7ee25a31.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_bb71ed1b67c842969bbf54d24ce89a9b = L.circleMarker(
+                [34.1340599, -109.2860081],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5af8c8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5af8c8",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_541de8376af944ebae1130aa7be10b8d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_18463fe32eb9450bba57f6d6c3b14786 = $(`<div id="html_18463fe32eb9450bba57f6d6c3b14786" style="width: 100.0%; height: 100.0%;">Springerville, Apache</div>`)[0];
+                popup_541de8376af944ebae1130aa7be10b8d.setContent(html_18463fe32eb9450bba57f6d6c3b14786);
+            
+
+            circle_marker_bb71ed1b67c842969bbf54d24ce89a9b.bindPopup(popup_541de8376af944ebae1130aa7be10b8d)
+            ;
+
+            
+        
+    
+        var marker_9b2e33217d0847e8b22b4b67e08c59dc = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_9b2e33217d0847e8b22b4b67e08c59dc.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_d6074a2a4c394b35bfe086edf7e619d4 = L.circleMarker(
+                [34.5058698, -109.3609327],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5af8c8",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5af8c8",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_8c6d412fc180437f80b058f3b3604130 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_48c57278c22c49a7843fd091da336612 = $(`<div id="html_48c57278c22c49a7843fd091da336612" style="width: 100.0%; height: 100.0%;">St. Johns, Apache</div>`)[0];
+                popup_8c6d412fc180437f80b058f3b3604130.setContent(html_48c57278c22c49a7843fd091da336612);
+            
+
+            circle_marker_d6074a2a4c394b35bfe086edf7e619d4.bindPopup(popup_8c6d412fc180437f80b058f3b3604130)
+            ;
+
+            
+        
+    
+        var marker_c09eb94a234b402e9cc806b4968ae494 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_c09eb94a234b402e9cc806b4968ae494.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_ea90c056ece84aafa6accb3b29f81a1b = L.circleMarker(
+                [34.261223, -111.23836180266304],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#a4f89f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#a4f89f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_bf5d7a706696483aaa32d33c973e4dd7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8422e574c93e428b90b6654c8c54ea98 = $(`<div id="html_8422e574c93e428b90b6654c8c54ea98" style="width: 100.0%; height: 100.0%;">Star Valley, Gila</div>`)[0];
+                popup_bf5d7a706696483aaa32d33c973e4dd7.setContent(html_8422e574c93e428b90b6654c8c54ea98);
+            
+
+            circle_marker_ea90c056ece84aafa6accb3b29f81a1b.bindPopup(popup_bf5d7a706696483aaa32d33c973e4dd7)
+            ;
+
+            
+        
+    
+        var marker_02e13605ed594433b6a70feea5a0f904 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_02e13605ed594433b6a70feea5a0f904.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_78d98cf1cfb946a0a79ee3163d121ec9 = L.circleMarker(
+                [33.293945, -111.0962305],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_b42be7e83dad4e608a0ab4120e990497 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_240657b6ce3548cca2f12cbda46d5f77 = $(`<div id="html_240657b6ce3548cca2f12cbda46d5f77" style="width: 100.0%; height: 100.0%;">Superior, Pinal</div>`)[0];
+                popup_b42be7e83dad4e608a0ab4120e990497.setContent(html_240657b6ce3548cca2f12cbda46d5f77);
+            
+
+            circle_marker_78d98cf1cfb946a0a79ee3163d121ec9.bindPopup(popup_b42be7e83dad4e608a0ab4120e990497)
+            ;
+
+            
+        
+    
+        var marker_9acd6f7a39e041038913b5d2b464d49a = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_9acd6f7a39e041038913b5d2b464d49a.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_72d558ea89c94c1bbf7e550bc5679d42 = L.circleMarker(
+                [33.6292271, -112.3680189],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_41157c707675409c8258b066e0809ae1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dc9dc3431ba744c6b9bcb7195783db1c = $(`<div id="html_dc9dc3431ba744c6b9bcb7195783db1c" style="width: 100.0%; height: 100.0%;">Surprise, Maricopa</div>`)[0];
+                popup_41157c707675409c8258b066e0809ae1.setContent(html_dc9dc3431ba744c6b9bcb7195783db1c);
+            
+
+            circle_marker_72d558ea89c94c1bbf7e550bc5679d42.bindPopup(popup_41157c707675409c8258b066e0809ae1)
+            ;
+
+            
+        
+    
+        var marker_98046743b29b464e98c1aa34e867d27c = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_98046743b29b464e98c1aa34e867d27c.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_83dedb07c9374681b56c2a29c54fc696 = L.circleMarker(
+                [34.4647338, -110.0916551],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c8e688",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c8e688",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_5c72337c64f0448db8af430dc206dad8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9e509676e59c4dfaae9c46bbddcbc689 = $(`<div id="html_9e509676e59c4dfaae9c46bbddcbc689" style="width: 100.0%; height: 100.0%;">Taylor, Navajo</div>`)[0];
+                popup_5c72337c64f0448db8af430dc206dad8.setContent(html_9e509676e59c4dfaae9c46bbddcbc689);
+            
+
+            circle_marker_83dedb07c9374681b56c2a29c54fc696.bindPopup(popup_5c72337c64f0448db8af430dc206dad8)
+            ;
+
+            
+        
+    
+        var marker_4c3dd31707704526bb395ffdbeaac111 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_4c3dd31707704526bb395ffdbeaac111.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_f5ea3a0849274c3d8aee6aab74d52931 = L.circleMarker(
+                [33.4255056, -111.9400125],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_51c8befc08a34c90bcf9d707836236fa = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_420b90b3c8bc4767bbf8a317c3aa61fc = $(`<div id="html_420b90b3c8bc4767bbf8a317c3aa61fc" style="width: 100.0%; height: 100.0%;">Tempe, Maricopa</div>`)[0];
+                popup_51c8befc08a34c90bcf9d707836236fa.setContent(html_420b90b3c8bc4767bbf8a317c3aa61fc);
+            
+
+            circle_marker_f5ea3a0849274c3d8aee6aab74d52931.bindPopup(popup_51c8befc08a34c90bcf9d707836236fa)
+            ;
+
+            
+        
+    
+        var marker_ae2f84bbc78546fa876871acbe15078e = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_ae2f84bbc78546fa876871acbe15078e.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_f59e2a80b3384e5da6c01253c10a9dd1 = L.circleMarker(
+                [32.8492323, -109.7592479],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff381c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff381c",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_5669a8db63944eacaf233f97bd9f6e0a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5886f3ecbbcd43fc9cc5ac4c712da1d9 = $(`<div id="html_5886f3ecbbcd43fc9cc5ac4c712da1d9" style="width: 100.0%; height: 100.0%;">Thatcher, Graham</div>`)[0];
+                popup_5669a8db63944eacaf233f97bd9f6e0a.setContent(html_5886f3ecbbcd43fc9cc5ac4c712da1d9);
+            
+
+            circle_marker_f59e2a80b3384e5da6c01253c10a9dd1.bindPopup(popup_5669a8db63944eacaf233f97bd9f6e0a)
+            ;
+
+            
+        
+    
+        var marker_8907c89943934abc8a9c2b4c47ae2eea = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_8907c89943934abc8a9c2b4c47ae2eea.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_65582f707ae948079654a8018f9356c5 = L.circleMarker(
+                [33.4500497, -112.2593093],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_f3137907081a4b6284ffb8510395e52c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2c62efd5e78b47b99cbd1c10ccb9d15c = $(`<div id="html_2c62efd5e78b47b99cbd1c10ccb9d15c" style="width: 100.0%; height: 100.0%;">Tolleson, Maricopa</div>`)[0];
+                popup_f3137907081a4b6284ffb8510395e52c.setContent(html_2c62efd5e78b47b99cbd1c10ccb9d15c);
+            
+
+            circle_marker_65582f707ae948079654a8018f9356c5.bindPopup(popup_f3137907081a4b6284ffb8510395e52c)
+            ;
+
+            
+        
+    
+        var marker_33dc435f549543069d0c05c0ac43b0af = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_33dc435f549543069d0c05c0ac43b0af.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_d24d5d2ea6fc496ebd5bcb6c8cb8e024 = L.circleMarker(
+                [31.7128683, -110.0675764],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#386df9",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#386df9",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_cad75f051b6948009ae27944e399eba6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_86dad8c03a694e44b3766f28e53cfc0c = $(`<div id="html_86dad8c03a694e44b3766f28e53cfc0c" style="width: 100.0%; height: 100.0%;">Tombstone, Cochise</div>`)[0];
+                popup_cad75f051b6948009ae27944e399eba6.setContent(html_86dad8c03a694e44b3766f28e53cfc0c);
+            
+
+            circle_marker_d24d5d2ea6fc496ebd5bcb6c8cb8e024.bindPopup(popup_cad75f051b6948009ae27944e399eba6)
+            ;
+
+            
+        
+    
+        var marker_8af1d1d7b82b42aba541a8712c7cd70a = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_8af1d1d7b82b42aba541a8712c7cd70a.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_54a032d7de60421ea91a0086ca8264c4 = L.circleMarker(
+                [32.2228765, -110.9748477],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ecc86f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ecc86f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_1342606697334f2f820bd41d69eeb629 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_80a23bc0004248d1b8a8e5c0d5c5ccae = $(`<div id="html_80a23bc0004248d1b8a8e5c0d5c5ccae" style="width: 100.0%; height: 100.0%;">Tucson, Pima</div>`)[0];
+                popup_1342606697334f2f820bd41d69eeb629.setContent(html_80a23bc0004248d1b8a8e5c0d5c5ccae);
+            
+
+            circle_marker_54a032d7de60421ea91a0086ca8264c4.bindPopup(popup_1342606697334f2f820bd41d69eeb629)
+            ;
+
+            
+        
+    
+        var marker_d9b7dd62c7774048aa2a8edf9f2a31fd = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_d9b7dd62c7774048aa2a8edf9f2a31fd.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_115ad95ee909475baa15cbffe9a62bff = L.circleMarker(
+                [35.9735954, -112.1265569],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_581a42a0508a4dadac19afe87172cb0a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_48a0b4e3f085434c81051169757e55e7 = $(`<div id="html_48a0b4e3f085434c81051169757e55e7" style="width: 100.0%; height: 100.0%;">Tusayan, Coconino</div>`)[0];
+                popup_581a42a0508a4dadac19afe87172cb0a.setContent(html_48a0b4e3f085434c81051169757e55e7);
+            
+
+            circle_marker_115ad95ee909475baa15cbffe9a62bff.bindPopup(popup_581a42a0508a4dadac19afe87172cb0a)
+            ;
+
+            
+        
+    
+        var marker_824ed403dafe476a8b45faad44b6cc3e = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_824ed403dafe476a8b45faad44b6cc3e.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_0c36554460854c3b8824eec1480a4716 = L.circleMarker(
+                [32.6728314, -114.1468894],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_ac32fc9ab2da422db29b53a6d039b4ab = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b0043c705e914d8ba71be8f1e8a0b2a2 = $(`<div id="html_b0043c705e914d8ba71be8f1e8a0b2a2" style="width: 100.0%; height: 100.0%;">Wellton, Yuma</div>`)[0];
+                popup_ac32fc9ab2da422db29b53a6d039b4ab.setContent(html_b0043c705e914d8ba71be8f1e8a0b2a2);
+            
+
+            circle_marker_0c36554460854c3b8824eec1480a4716.bindPopup(popup_ac32fc9ab2da422db29b53a6d039b4ab)
+            ;
+
+            
+        
+    
+        var marker_f1c2857b9d884e6bb039b9279f6a554a = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_f1c2857b9d884e6bb039b9279f6a554a.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_6a18a7cd03504db8b607f5087081078c = L.circleMarker(
+                [33.9680962, -112.7301353],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_1463c165c47e4c58a5681bc71f75d184 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_305122fe3a704db386323f960d07f8ed = $(`<div id="html_305122fe3a704db386323f960d07f8ed" style="width: 100.0%; height: 100.0%;">Wickenburg, Maricopa</div>`)[0];
+                popup_1463c165c47e4c58a5681bc71f75d184.setContent(html_305122fe3a704db386323f960d07f8ed);
+            
+
+            circle_marker_6a18a7cd03504db8b607f5087081078c.bindPopup(popup_1463c165c47e4c58a5681bc71f75d184)
+            ;
+
+            
+        
+    
+        var marker_77cdb0904bd54941b9c94d24deec8ca0 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_77cdb0904bd54941b9c94d24deec8ca0.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_a4695aa180c243b1a85936c768a66d0c = L.circleMarker(
+                [32.2529138, -109.8315759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#386df9",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#386df9",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_4f5a59b9e9c849ee9e9fec45ea51ebef = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_89df027db02e41c085ac817aa4975522 = $(`<div id="html_89df027db02e41c085ac817aa4975522" style="width: 100.0%; height: 100.0%;">Willcox, Cochise</div>`)[0];
+                popup_4f5a59b9e9c849ee9e9fec45ea51ebef.setContent(html_89df027db02e41c085ac817aa4975522);
+            
+
+            circle_marker_a4695aa180c243b1a85936c768a66d0c.bindPopup(popup_4f5a59b9e9c849ee9e9fec45ea51ebef)
+            ;
+
+            
+        
+    
+        var marker_80fc6d55a605441499616f37b6808f70 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_80fc6d55a605441499616f37b6808f70.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_5a09b07462ad445fabc553b341287774 = L.circleMarker(
+                [35.2503394, -112.1869481],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_dd15820db07f4a71a1da684d6d12ddf7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b86488e1c81e4ce1b5585a41895c0291 = $(`<div id="html_b86488e1c81e4ce1b5585a41895c0291" style="width: 100.0%; height: 100.0%;">Williams, Coconino</div>`)[0];
+                popup_dd15820db07f4a71a1da684d6d12ddf7.setContent(html_b86488e1c81e4ce1b5585a41895c0291);
+            
+
+            circle_marker_5a09b07462ad445fabc553b341287774.bindPopup(popup_dd15820db07f4a71a1da684d6d12ddf7)
+            ;
+
+            
+        
+    
+        var marker_9c687c16e8a343f197f9421c5a48ee73 = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_9c687c16e8a343f197f9421c5a48ee73.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_00363c19dfd34c118d4f2ae50840ef4c = L.circleMarker(
+                [32.9875659, -110.7709387],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#a4f89f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#a4f89f",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_5c514a9eddb64ef3b9f2092abcf9860e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f13ae60649dc4fea983beef9627d6f2f = $(`<div id="html_f13ae60649dc4fea983beef9627d6f2f" style="width: 100.0%; height: 100.0%;">Winkelman, Gila</div>`)[0];
+                popup_5c514a9eddb64ef3b9f2092abcf9860e.setContent(html_f13ae60649dc4fea983beef9627d6f2f);
+            
+
+            circle_marker_00363c19dfd34c118d4f2ae50840ef4c.bindPopup(popup_5c514a9eddb64ef3b9f2092abcf9860e)
+            ;
+
+            
+        
+    
+        var marker_bab683a32a894002addf313195b83cca = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_bab683a32a894002addf313195b83cca.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_beb70ada20c0408a93b6a596da71becd = L.circleMarker(
+                [35.0241874, -110.6973572],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c8e688",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c8e688",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_380f32d1be6c4ad9899143eb591ec521 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c55038fdd641481697ef9ab82c5150f0 = $(`<div id="html_c55038fdd641481697ef9ab82c5150f0" style="width: 100.0%; height: 100.0%;">Winslow, Navajo</div>`)[0];
+                popup_380f32d1be6c4ad9899143eb591ec521.setContent(html_c55038fdd641481697ef9ab82c5150f0);
+            
+
+            circle_marker_beb70ada20c0408a93b6a596da71becd.bindPopup(popup_380f32d1be6c4ad9899143eb591ec521)
+            ;
+
+            
+        
+    
+        var marker_67d83dfa3c0f432caca7678f9a25867c = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_67d83dfa3c0f432caca7678f9a25867c.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_c5189b64bdd2412086aa42fc4a6c85d6 = L.circleMarker(
+                [33.5937302, -112.3033265],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5c38fd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5c38fd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_54f770b159184d20b68924612930e92c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fb499e7078864686896ba425e2cfdcdb = $(`<div id="html_fb499e7078864686896ba425e2cfdcdb" style="width: 100.0%; height: 100.0%;">Youngtown, Maricopa</div>`)[0];
+                popup_54f770b159184d20b68924612930e92c.setContent(html_fb499e7078864686896ba425e2cfdcdb);
+            
+
+            circle_marker_c5189b64bdd2412086aa42fc4a6c85d6.bindPopup(popup_54f770b159184d20b68924612930e92c)
+            ;
+
+            
+        
+    
+        var marker_4bb4cc4852434b7ca7c2ae2ea73cf62e = L.marker(
+            [33.448437, -112.074142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+        
+    
+        marker_4bb4cc4852434b7ca7c2ae2ea73cf62e.bindTooltip(
+            `<div>`
+            + `Phoenix, Arizona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_088e5a3c235545c8b204bece4a6f752f = L.circleMarker(
+                [32.6926588, -114.6276157],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_390ed9ffe4f444ca8b8e5c604e4824a0);
+            
+    
+            var popup_f98b563bc45045b4b1a016d7302773fd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_45dfd53f46be4dc9b8cd00dd27310221 = $(`<div id="html_45dfd53f46be4dc9b8cd00dd27310221" style="width: 100.0%; height: 100.0%;">Yuma, Yuma</div>`)[0];
+                popup_f98b563bc45045b4b1a016d7302773fd.setContent(html_45dfd53f46be4dc9b8cd00dd27310221);
+            
+
+            circle_marker_088e5a3c235545c8b204bece4a6f752f.bindPopup(popup_f98b563bc45045b4b1a016d7302773fd)
+            ;
+
+            
+        
+    
+
+        var tile_layer_89f7d080693642fab6e80723b58c8c30 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+} );
+
+        var mini_map_35c32fe6036c4727940c2cb1100db55b = new L.Control.MiniMap( tile_layer_89f7d080693642fab6e80723b58c8c30,
+         {
+  "autoToggleDisplay": false,
+  "centerFixed": false,
+  "collapsedHeight": 25,
+  "collapsedWidth": 25,
+  "height": 150,
+  "minimized": false,
+  "position": "bottomright",
+  "toggleDisplay": false,
+  "width": 150,
+  "zoomAnimation": false,
+  "zoomLevelFixed": null,
+  "zoomLevelOffset": -5
+});
+        map_390ed9ffe4f444ca8b8e5c604e4824a0.addControl(mini_map_35c32fe6036c4727940c2cb1100db55b);
+
+        
+</script>
